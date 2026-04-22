@@ -1,0 +1,22 @@
+# Node
+node_modules/
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Docker volumes (por si acaso)
+db_data/
+
+# Drupal files (más adelante)
+sites/default/files
+
+# IDE
+.vscode/
