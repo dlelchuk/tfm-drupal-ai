@@ -20,3 +20,6 @@ sites/default/files
 
 # IDE
 .vscode/
+
+#Otros
+desktop.ini
