@@ -1,18 +1,17 @@
-version: '3.8'
-
 services:
   drupal:
     image: drupal:10
     ports:
       - "8080:80"
     volumes:
-      - ./modules:/var/www/html/modules
-      - ./themes:/var/www/html/themes
+      - drupal_data:/opt/drupal/web
     depends_on:
       - db
 
   db:
     image: mysql:8
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_DATABASE: drupal
       MYSQL_USER: drupal
@@ -21,5 +20,25 @@ services:
     volumes:
       - db_data:/var/lib/mysql
 
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - PORT=3000
+    depends_on:
+      - python-api   # 🔥 CAMBIO IMPORTANTE
+
+  python-api:
+    build: ./backend
+    command: uvicorn search_api:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./backend:/app   # 🔥 IMPORTANTE para acceder a data.json
+    ports:
+      - "8000:8000"
+
 volumes:
   db_data:
+  drupal_data:
