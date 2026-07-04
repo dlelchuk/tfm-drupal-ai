@@ -1,26 +1,40 @@
 FROM node:20
 
-# Instalar Python + pip
+# ========================================
+# Dependencias del sistema
+# ========================================
+
 RUN apt-get update && \
-    apt-get install -y python3 python3-pip
+    apt-get install -y --no-install-recommends \
+        python3 \
+        python3-pip && \
+    rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-# Instalar dependencias Node
+# ========================================
+# Dependencias Node
+# ========================================
+
 COPY package*.json ./
+
 RUN npm install
 
-# Copiar código
-COPY . .
+# ========================================
+# Dependencias Python
+# ========================================
 
-# Instalar dependencias Python (todas las necesarias)
-RUN pip3 install --break-system-packages \
-    sentence-transformers \
-    numpy \
-    scikit-learn \
-    fastapi \
-    uvicorn
+COPY requirements.txt ./
+
+RUN pip3 install --break-system-packages --no-cache-dir \
+    -r requirements.txt
+
+# ========================================
+# Código de la aplicación
+# ========================================
+
+COPY . .
 
 EXPOSE 3000
 
-CMD ["node", "server.js"]
+CMD ["npm", "run", "dev"]

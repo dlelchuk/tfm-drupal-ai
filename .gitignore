@@ -23,3 +23,10 @@ sites/default/files
 
 #Otros
 desktop.ini
+
+#Entorno python para crear embedding
+venv/
+.venv/
+venv-linux/
+__pycache__/
+*.pyc

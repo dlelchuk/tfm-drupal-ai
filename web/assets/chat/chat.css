@@ -1,0 +1,307 @@
+/* ==========================================================================
+   Chat Widget
+   ========================================================================== */
+
+#chat-widget {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 700px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  overflow: hidden;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================================================================
+   Bienvenida
+   ========================================================================== */
+
+#chat-welcome {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 60px;
+}
+
+#chat-welcome h2 {
+  margin-bottom: 20px;
+}
+
+#chat-welcome p {
+  max-width: 650px;
+}
+
+#chat-start {
+  margin: 35px 0;
+
+  padding: 12px 36px;
+
+  border: 0;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chat-disclaimer {
+  font-size: 13px;
+
+  color: #777;
+}
+
+/* ==========================================================================
+   Chat
+   ========================================================================== */
+
+#chat-window {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+/* ==========================================================================
+   Cabecera
+   ========================================================================== */
+
+#chat-header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 20px;
+
+  border-bottom: 1px solid #ececec;
+
+  background: #fafafa;
+}
+
+.chat-title h3 {
+  margin: 0;
+}
+
+#chat-status {
+  display: block;
+
+  margin-top: 3px;
+
+  font-size: 12px;
+
+  color: #777;
+}
+
+#chat-new {
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Mensajes
+   ========================================================================== */
+
+#chat-messages {
+  flex: 1;
+
+  overflow-y: auto;
+
+  padding: 20px;
+
+  background: #f7f7f8;
+}
+
+/* ==========================================================================
+   Burbujas
+   ========================================================================== */
+
+.chat-message {
+  display: flex;
+
+  margin-bottom: 18px;
+}
+
+.chat-user {
+  justify-content: flex-end;
+}
+
+.chat-assistant {
+  justify-content: flex-start;
+}
+
+.chat-bubble {
+  max-width: 80%;
+
+  padding: 14px 18px;
+
+  border-radius: 18px;
+
+  white-space: pre-wrap;
+
+  line-height: 1.5;
+}
+
+.chat-user .chat-bubble {
+  background: #d8ebff;
+}
+
+.chat-assistant .chat-bubble {
+  background: #ffffff;
+
+  border: 1px solid #dddddd;
+}
+
+/* ==========================================================================
+   Pensando
+   ========================================================================== */
+
+#chat-thinking {
+  padding: 10px 20px;
+
+  font-style: italic;
+
+  color: #666;
+
+  border-top: 1px solid #ececec;
+}
+
+/* ==========================================================================
+   Entrada
+   ========================================================================== */
+
+#chat-input-area {
+  display: flex;
+
+  gap: 12px;
+
+  align-items: flex-end;
+
+  padding: 15px;
+
+  border-top: 1px solid #ececec;
+
+  background: white;
+}
+
+#chat-input {
+  flex: 1;
+
+  resize: none;
+
+  min-height: 70px;
+
+  max-height: 180px;
+
+  padding: 12px;
+}
+
+#chat-send {
+  width: 120px;
+
+  height: 44px;
+
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  #chat-widget {
+    height: 600px;
+  }
+
+  #chat-input-area {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #chat-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #chat-send {
+    width: 100%;
+  }
+}
+/* ==========================================================================
+   Modal
+   ========================================================================== */
+
+#chat-modal {
+  position: absolute;
+
+  inset: 0;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+#chat-modal-backdrop {
+  position: absolute;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.35);
+}
+
+#chat-modal-dialog {
+  position: relative;
+
+  width: 420px;
+
+  max-width: calc(100% - 40px);
+
+  padding: 24px;
+
+  border-radius: 10px;
+
+  background: white;
+
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+
+  z-index: 1;
+}
+
+#chat-modal-dialog h3 {
+  margin-top: 0;
+
+  margin-bottom: 12px;
+}
+
+#chat-modal-dialog p {
+  margin-bottom: 24px;
+}
+
+.chat-modal-buttons {
+  display: flex;
+
+  justify-content: flex-end;
+
+  gap: 10px;
+}

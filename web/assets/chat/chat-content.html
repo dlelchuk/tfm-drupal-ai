@@ -1,0 +1,91 @@
+<div id="chat-widget">
+  <!-- ============================================================= -->
+  <!-- Pantalla de bienvenida                                        -->
+  <!-- ============================================================= -->
+
+  <section id="chat-welcome">
+    <h2>Asistente IA EQui-T</h2>
+
+    <p>
+      Este asistente le ayudará a crear recursos educativos accesibles siguiendo
+      las recomendaciones del catálogo EQui-T.
+    </p>
+
+    <button id="chat-start" type="button">Iniciar</button>
+
+    <p class="chat-disclaimer">
+      Al iniciar una conversación acepta las
+      <a href="//localhost:8000" target="_blank" rel="noopener">
+        Condiciones de Uso </a
+      >.
+    </p>
+  </section>
+
+  <!-- ============================================================= -->
+  <!-- Ventana del chat                                              -->
+  <!-- ============================================================= -->
+
+  <section id="chat-window" hidden>
+    <!-- Cabecera -->
+
+    <header id="chat-header">
+      <div class="chat-title">
+        <h3>Asistente IA EQui-T</h3>
+
+        <span id="chat-status"> Conversación activa </span>
+      </div>
+
+      <button id="chat-new" type="button" title="Nueva conversación">
+        Nueva conversación
+      </button>
+    </header>
+
+    <!-- Historial -->
+
+    <main id="chat-messages">
+      <!--
+            Los mensajes se insertarán aquí mediante JavaScript.
+            -->
+    </main>
+
+    <!-- Indicador "pensando" -->
+
+    <div id="chat-thinking" hidden>
+      <span class="chat-thinking-text"> Pensando... </span>
+    </div>
+
+    <!-- Entrada -->
+
+    <footer id="chat-input-area">
+      <textarea
+        id="chat-input"
+        rows="3"
+        maxlength="2000"
+        placeholder="Escriba su consulta..."
+      ></textarea>
+
+      <button id="chat-send" type="button">Enviar</button>
+    </footer>
+  </section>
+  <!-- ============================================================= -->
+  <!-- Modal                                                         -->
+  <!-- ============================================================= -->
+
+  <div id="chat-modal" hidden>
+    <div id="chat-modal-backdrop"></div>
+
+    <div id="chat-modal-dialog">
+      <h3>Iniciar una nueva conversación</h3>
+
+      <p>Se perderá el contexto de la conversación actual.</p>
+
+      <div class="chat-modal-buttons">
+        <button id="chat-modal-cancel" type="button">Cancelar</button>
+
+        <button id="chat-modal-confirm" type="button">
+          Nueva conversación
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

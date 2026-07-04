@@ -1,0 +1,40 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV HF_HOME=/root/.cache/huggingface
+
+# Dependencias Python
+COPY python/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+RUN pip install --no-cache-dir \
+    --index-url https://download.pytorch.org/whl/cpu \
+    torch==2.7.1+cpu
+
+RUN pip install --no-cache-dir \
+    transformers==4.56.1 \
+    huggingface-hub \
+    tokenizers \
+    safetensors \
+    numpy \
+    scipy \
+    scikit-learn \
+    tqdm \
+    Pillow \
+    requests
+
+RUN pip install --no-cache-dir --no-deps \
+    sentence-transformers==5.0.0
+
+# Código Python
+COPY python/ .
+
+# Base de conocimiento
+COPY data ./data
+
+EXPOSE 8000
+
+CMD ["uvicorn", "semantic_search_api:app", "--host", "0.0.0.0", "--port", "8000"]

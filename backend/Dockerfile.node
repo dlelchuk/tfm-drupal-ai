@@ -1,0 +1,14 @@
+FROM node:20
+
+WORKDIR /app
+
+# Dependencias
+COPY node/package*.json ./
+RUN npm install
+
+# Código Node
+COPY node/ .
+
+EXPOSE 3000
+
+CMD ["npm", "run", "dev"]

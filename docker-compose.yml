@@ -1,44 +1,50 @@
 services:
-  drupal:
-    image: drupal:10
-    ports:
-      - "8080:80"
-    volumes:
-      - drupal_data:/opt/drupal/web
-    depends_on:
-      - db
-
-  db:
-    image: mysql:8
-    ports:
-      - "3306:3306"
-    environment:
-      MYSQL_DATABASE: drupal
-      MYSQL_USER: drupal
-      MYSQL_PASSWORD: drupal
-      MYSQL_ROOT_PASSWORD: root
-    volumes:
-      - db_data:/var/lib/mysql
-
   backend:
-    build: ./backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.node
+
+    container_name: tfm-backend
+
+    working_dir: /app
+
     ports:
       - "3000:3000"
+
     volumes:
-      - ./backend:/app
+      - ./backend/node:/app
+      - node-modules:/app/node_modules
+      - ./web:/web
+
     environment:
-      - PORT=3000
+      PORT: 3000
+
     depends_on:
-      - python-api   # 🔥 CAMBIO IMPORTANTE
+      - python-api
+
+    restart: unless-stopped
 
   python-api:
-    build: ./backend
-    command: uvicorn search_api:app --host 0.0.0.0 --port 8000
-    volumes:
-      - ./backend:/app   # 🔥 IMPORTANTE para acceder a data.json
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.python
+
+    container_name: tfm-python-api
+
+    working_dir: /app
+
+    command: uvicorn semantic_search_api:app --reload --host 0.0.0.0 --port 8000
+
     ports:
       - "8000:8000"
 
+    volumes:
+      - ./backend/python:/app
+      - ./backend/data:/app/data
+      - hf-cache:/root/.cache/huggingface
+
+    restart: unless-stopped
+
 volumes:
-  db_data:
-  drupal_data:
+  node-modules:
+  hf-cache:
