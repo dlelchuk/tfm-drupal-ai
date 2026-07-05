@@ -16,6 +16,9 @@ services:
       - node-modules:/app/node_modules
       - ./web:/web
 
+    env_file:
+      - ./backend/.env
+
     environment:
       PORT: 3000
 

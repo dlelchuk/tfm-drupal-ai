@@ -146,16 +146,6 @@ const ChatWidget = (() => {
   // Respuesta simulada
   // ---------------------------------------------------------------------
 
-  function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-  }
-
-  async function getAssistantResponse(message) {
-    await sleep(2000);
-
-    return `Respuesta simulada para:\n\n"${message}"`;
-  }
-
   // ---------------------------------------------------------------------
   // Envío de mensajes
   // ---------------------------------------------------------------------
@@ -179,9 +169,28 @@ const ChatWidget = (() => {
     setWaiting(true);
 
     try {
-      const response = await getAssistantResponse(text);
+      const response = await fetch("/api/ask", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          message: text,
+          history: state.history,
+        }),
+      });
 
-      addAssistantMessage(response);
+      if (!response.ok) {
+        throw new Error(`Error ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      addAssistantMessage(data.reply);
+    } catch (error) {
+      console.error(error);
+
+      addAssistantMessage("Se produjo un error al contactar con el asistente.");
     } finally {
       setWaiting(false);
 

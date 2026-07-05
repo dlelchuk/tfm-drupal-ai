@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import json
 import numpy as np
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, CrossEncoder
 from sklearn.metrics.pairwise import cosine_similarity
 
 app = FastAPI()
@@ -12,6 +12,11 @@ app = FastAPI()
 print("🔄 Cargando modelo...")
 model = SentenceTransformer(
     "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+)
+
+print("🔄 Cargando Cross-Encoder...")
+cross_encoder = CrossEncoder(
+    "cross-encoder/ms-marco-MiniLM-L-6-v2"
 )
 
 print("🔄 Cargando embeddings...")
@@ -30,13 +35,14 @@ query_cache = {}
 # =============================
 print("🔥 Warmup del modelo...")
 model.encode(["warmup"])
+cross_encoder.predict([("warmup", "warmup")])
 print("✅ API lista")
 
 # =============================
 # ENDPOINT
 # =============================
 @app.get("/search")
-def search(query: str, top_k: int = 3):
+def search(query: str, top_k: int = 8):
 
     # -------- cache --------
     if query in query_cache:
@@ -45,14 +51,31 @@ def search(query: str, top_k: int = 3):
         query_embedding = model.encode([query])
         query_cache[query] = query_embedding
 
-    # -------- similitud --------
+    # -------- Primera etapa: recuperación por embeddings --------
     similarities = cosine_similarity(query_embedding, embeddings)[0]
 
-    top_indices = similarities.argsort()[-top_k:][::-1]
+    retrieval_k = min(25, len(data))
 
+    candidate_indices = similarities.argsort()[-retrieval_k:][::-1]
+
+    # -------- Segunda etapa: re-ranking --------
+    pairs = [
+        (query, data[idx]["texto_embedding"])
+        for idx in candidate_indices
+    ]
+
+    rerank_scores = cross_encoder.predict(pairs)
+
+    reranked = sorted(
+        zip(candidate_indices, rerank_scores),
+        key=lambda x: x[1],
+        reverse=True
+    )
+
+    # -------- Resultado final --------
     results = []
 
-    for idx in top_indices:
+    for idx, rerank_score in reranked[:top_k]:
 
         item = data[idx]
 
@@ -64,7 +87,17 @@ def search(query: str, top_k: int = 3):
             "recomendacion": item["recomendacion"],
             "ejemplo": item["ejemplo"],
             "texto_embedding": item["texto_embedding"],
-            "score": float(similarities[idx])
+            "embedding_score": float(similarities[idx]),
+            "rerank_score": float(rerank_score)
         })
+    print("\n===== RESULTADOS RERANKEADOS =====")
 
+    for r in results:
+        print(
+                f"ID={r['id']} | "
+                f"Emb={r['embedding_score']:.3f} | "
+                f"Cross={r['rerank_score']:.3f}"
+    )
+
+    print("===============================\n")
     return results
