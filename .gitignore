@@ -30,3 +30,12 @@ venv/
 venv-linux/
 __pycache__/
 *.pyc
+
+## Otros
+ELIMINAR - Documentos/
+web2/
+tools/
+Memoria/
+ollama-local/
+estructura.txt
+Start.bat
