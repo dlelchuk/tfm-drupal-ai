@@ -6,6 +6,19 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = FastAPI()
 
+@app.get("/health")
+def health():
+    return {
+        "status": "ok",
+        "message": "Python API funcionando"
+    }
+
+# =============================
+# CONFIGURACIÓN
+# =============================
+TOP_K = 8
+RETRIEVAL_K = 25
+
 # =============================
 # CARGA GLOBAL (una sola vez)
 # =============================
@@ -20,7 +33,7 @@ cross_encoder = CrossEncoder(
 )
 
 print("🔄 Cargando embeddings...")
-with open('data/data.json', 'r', encoding='utf-8') as f:
+with open("data/data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 embeddings = np.array([item["embedding"] for item in data])
@@ -42,9 +55,9 @@ print("✅ API lista")
 # ENDPOINT
 # =============================
 @app.get("/search")
-def search(query: str, top_k: int = 8):
+def search(query: str):
 
-    # -------- cache --------
+    # -------- Cache --------
     if query in query_cache:
         query_embedding = query_cache[query]
     else:
@@ -54,8 +67,7 @@ def search(query: str, top_k: int = 8):
     # -------- Primera etapa: recuperación por embeddings --------
     similarities = cosine_similarity(query_embedding, embeddings)[0]
 
-    retrieval_k = min(25, len(data))
-
+    retrieval_k = min(RETRIEVAL_K, len(data))
     candidate_indices = similarities.argsort()[-retrieval_k:][::-1]
 
     # -------- Segunda etapa: re-ranking --------
@@ -75,7 +87,7 @@ def search(query: str, top_k: int = 8):
     # -------- Resultado final --------
     results = []
 
-    for idx, rerank_score in reranked[:top_k]:
+    for idx, rerank_score in reranked[:TOP_K]:
 
         item = data[idx]
 
@@ -90,14 +102,16 @@ def search(query: str, top_k: int = 8):
             "embedding_score": float(similarities[idx]),
             "rerank_score": float(rerank_score)
         })
+
     print("\n===== RESULTADOS RERANKEADOS =====")
 
     for r in results:
         print(
-                f"ID={r['id']} | "
-                f"Emb={r['embedding_score']:.3f} | "
-                f"Cross={r['rerank_score']:.3f}"
-    )
+            f"ID={r['id']} | "
+            f"Emb={r['embedding_score']:.3f} | "
+            f"Cross={r['rerank_score']:.3f}"
+        )
 
     print("===============================\n")
+
     return results

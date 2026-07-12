@@ -1,0 +1,11 @@
+transformers==4.56.1
+sentence-transformers==5.0.0
+huggingface-hub
+tokenizers
+safetensors
+numpy
+scipy
+scikit-learn
+Pillow
+requests
+tqdm
