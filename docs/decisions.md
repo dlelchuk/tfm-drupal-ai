@@ -6,13 +6,13 @@ Se adopta una arquitectura basada en servicios independientes.
 
 Motivo:
 
-Reducir acoplamiento y facilitar mantenimiento.
+Separar responsabilidades, reducir el acoplamiento y facilitar el mantenimiento y la evolución del sistema.
 
 ---
 
-## RAG
+## Recuperación de información (RAG)
 
-Se utiliza recuperación en dos etapas:
+La recuperación se implementa en dos etapas:
 
 Embeddings
 
@@ -22,49 +22,69 @@ CrossEncoder
 
 Motivo:
 
-Incrementar Recall sin sacrificar Precisión.
+Maximizar la recuperación de recomendaciones relevantes y mejorar la precisión de los resultados antes de construir el prompt.
 
 ---
 
-## LLM
+## Modelo de lenguaje
 
-Gemini actúa únicamente como generador de lenguaje.
+Gemini se utiliza exclusivamente para la generación de respuestas.
 
-No participa en la recuperación.
-
----
-
-## Python
-
-Toda la recuperación semántica se implementa en Python.
+No participa en la recuperación de información.
 
 Motivo:
 
-Disponibilidad de bibliotecas de Machine Learning.
+Separar el proceso de recuperación del proceso de generación para reducir alucinaciones y garantizar que las recomendaciones procedan de la base de conocimiento.
 
 ---
 
-## Node.js
+## API de recuperación
 
-Node coordina el flujo completo.
+Toda la recuperación semántica se implementa en una API independiente desarrollada con FastAPI.
 
-No implementa algoritmos de recuperación.
+Motivo:
+
+Aprovechar el ecosistema de bibliotecas de Machine Learning de Python y desacoplar la lógica RAG del backend principal.
+
+---
+
+## Backend
+
+Node.js coordina el flujo completo de la conversación.
+
+Motivo:
+
+Centralizar la orquestación del sistema, la gestión de sesiones y la comunicación entre los distintos componentes.
 
 ---
 
 ## Prompt
 
-El prompt se genera dinámicamente.
+El prompt se construye dinámicamente para cada consulta.
 
-Nunca se almacena como texto fijo.
+Motivo:
+
+Adaptar el contexto enviado al modelo de lenguaje a la conversación y a las recomendaciones recuperadas.
+
+---
+
+## Despliegue
+
+La aplicación se distribuye mediante contenedores Docker independientes.
+
+El acceso desde Internet se realiza mediante Cloudflare Tunnel.
+
+Motivo:
+
+Facilitar el despliegue, aislar los distintos servicios y publicar la aplicación sin necesidad de abrir puertos en el router.
 
 ---
 
 ## Filosofía del asistente
 
-El objetivo del sistema no es responder preguntas sobre accesibilidad.
+El objetivo del sistema no es responder preguntas generales sobre accesibilidad.
 
-Su objetivo consiste en acompañar al docente durante la creación de un recurso educativo accesible.
+Su finalidad consiste en acompañar al docente durante el proceso de creación y adaptación de Recursos Educativos Abiertos accesibles utilizando las recomendaciones del marco EQui-T.
 
 ---
 
@@ -72,20 +92,6 @@ Su objetivo consiste en acompañar al docente durante la creación de un recurso
 
 - Separación de responsabilidades.
 - Modularidad.
-- Componentes intercambiables.
 - Bajo acoplamiento.
 - Alta cohesión.
-
----
-
-## Evolución prevista
-
-1. Boosting por metadatos.
-
-2. Detección de intención del usuario.
-
-3. Recuperación híbrida.
-
-4. Compresión del contexto.
-
-5. Memoria conversacional persistente.
+- Responsabilidad única (Single Responsibility Principle).

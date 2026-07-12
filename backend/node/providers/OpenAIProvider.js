@@ -1,5 +1,0 @@
-/**
- * OpenAIProvider.js
- * Generado automáticamente.
- */
-
