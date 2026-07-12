@@ -1,69 +1,146 @@
-from sentence_transformers import SentenceTransformer
 import json
+import time
 
-print("🔄 Cargando modelo...")
+from sentence_transformers import SentenceTransformer
 
-model = SentenceTransformer(
-    "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+from config import (
+    OUTPUT_JSON,
+    BACKEND_DATA_FILE,
+    EMBEDDING_MODEL,
+    EMBEDDING_BATCH_SIZE,
 )
+from logger import Logger
 
-# Cargar base de conocimiento
-with open(
-    "data/knowledge_base.json",
-    "r",
-    encoding="utf-8"
-) as f:
-    chunks = json.load(f)
 
-# Extraer textos para embedding
-texts = [
-    chunk["texto_embedding"]
-    for chunk in chunks
-    if chunk.get("texto_embedding")
-]
+log = Logger()
 
-print(f"🔄 Generando embeddings para {len(texts)} registros...")
 
-# Generar embeddings
-embeddings = model.encode(
-    texts,
-    show_progress_bar=True,
-    batch_size=32,
-    convert_to_numpy=True
-)
+def build_embedding_text(item):
 
-# Combinar datos originales + embedding
-data = []
+    parts = []
 
-embedding_index = 0
-
-for chunk in chunks:
-
-    if not chunk.get("texto_embedding"):
-        continue
-
-    item = {
-        **chunk,
-        "embedding": embeddings[embedding_index].tolist()
-    }
-
-    data.append(item)
-
-    embedding_index += 1
-
-# Guardar resultado
-with open(
-    "data/data.json",
-    "w",
-    encoding="utf-8"
-) as f:
-    json.dump(
-        data,
-        f,
-        indent=2,
-        ensure_ascii=False
+    parts.append(
+        f"Dimensión: {item['dimension']['nombre']}"
     )
 
-print(
-    f"✅ Embeddings generados correctamente para {len(data)} recomendaciones"
-)
+    parts.append(
+        f"Subdimensión: {item['subdimension']['nombre']}"
+    )
+
+    if item.get("categoria"):
+
+        parts.append(
+            f"Categoría: {item['categoria']}"
+        )
+
+    parts.append("")
+
+    parts.append("Recomendación:")
+
+    parts.append(
+        item["recomendacion"]
+    )
+
+    if item.get("ejemplo"):
+
+        parts.append("")
+        parts.append("Ejemplo:")
+        parts.append(item["ejemplo"])
+
+    return "\n".join(parts)
+
+
+def main():
+
+    log.step("Cargando catálogo")
+
+    with open(
+        OUTPUT_JSON,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        catalog = json.load(f)
+
+    log.info(
+        f"Criterios: {len(catalog)}"
+    )
+
+    log.step("Cargando modelo")
+
+    model = SentenceTransformer(
+        EMBEDDING_MODEL
+    )
+
+    texts = [
+        build_embedding_text(item)
+        for item in catalog
+    ]
+
+    log.step("Generando embeddings")
+
+    start = time.perf_counter()
+
+    embeddings = model.encode(
+        texts,
+        batch_size=EMBEDDING_BATCH_SIZE,
+        show_progress_bar=True,
+        convert_to_numpy=True
+    )
+
+    elapsed = time.perf_counter() - start
+
+    data = []
+
+    for item, embedding, text in zip(
+        catalog,
+        embeddings,
+        texts
+    ):
+
+        data.append({
+
+            **item,
+
+            "texto_embedding": text,
+
+            "embedding": embedding.tolist()
+
+        })
+
+    log.step("Guardando resultado")
+
+    with open(
+        BACKEND_DATA_FILE,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            data,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
+
+    log.success(
+        f"Archivo generado: {BACKEND_DATA_FILE}"
+    )
+
+    log.step("Resumen")
+
+    log.info(
+        f"Modelo: {EMBEDDING_MODEL}"
+    )
+
+    log.info(
+        f"Registros: {len(data)}"
+    )
+
+    log.info(
+        f"Tiempo: {elapsed:.2f} s"
+    )
+
+
+if __name__ == "__main__":
+    main()
