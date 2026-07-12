@@ -32,10 +32,8 @@ __pycache__/
 *.pyc
 
 ## Otros
-ELIMINAR - Documentos/
-web2/
-tools/
-Memoria/
-ollama-local/
+web_original/
+tools-data/
+tools-web/
 estructura.txt
 Start.bat
