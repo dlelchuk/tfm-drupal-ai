@@ -34,6 +34,7 @@ ESTILO
 - Prioriza respuestas bien estructuradas.
 - Integra recomendaciones relacionadas en una única explicación coherente.
 - Evita responder criterio por criterio cuando puedan sintetizarse.
+- Evita el uso de caracteres como * o #. Prioriza usar negritas y cursivas para resaltar información importante.
 
 LIMITACIONES
 

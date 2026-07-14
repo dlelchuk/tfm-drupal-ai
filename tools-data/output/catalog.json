@@ -1,0 +1,3922 @@
+[
+  {
+    "id": 1,
+    "pagina_inicio": 4,
+    "pagina_fin": 4,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "OBJETIVOS Y METAS",
+    "recomendacion": "Proporcione información sobre los objetivos y metas de aprendizaje en la portada del recurso.",
+    "ejemplo": null
+  },
+  {
+    "id": 2,
+    "pagina_inicio": 4,
+    "pagina_fin": 4,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "OBJETIVOS Y METAS",
+    "recomendacion": "Asegúrese de que todos los objetivos de aprendizaje sean alcanzables, mensurables, relevantes, claramente enunciados y concisos para los estudiantes y otros docentes que utilicen sus REA.",
+    "ejemplo": null
+  },
+  {
+    "id": 3,
+    "pagina_inicio": 4,
+    "pagina_fin": 4,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "OBJETIVOS DE APRENDIZAJE PARA",
+    "recomendacion": "Personalice, ajuste y adapte sus REA para obtener resultados de aprendizaje óptimos, que pueden no ser los mismos para todos.",
+    "ejemplo": "Determine objetivos de aprendizaje individualizados; haga que el contenido de los REA sea accesible según las diferentes necesidades de aprendizaje de los estudiantes con y sin discapacidades (ver Dimensión 4)"
+  },
+  {
+    "id": 4,
+    "pagina_inicio": 5,
+    "pagina_fin": 5,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "LA ENSEÑANZA DIFERENCIADA",
+    "recomendacion": "Asegúrese de que los objetivos y contenidos de un REA se basen en la edad y el nivel de competencia inicial de los estudiantes.",
+    "ejemplo": "Si un REA está diseñado para niños pequeños, debe tener contenido visual adaptado a ellos, como dibujos y textos más sencillos. Si el mismo REA está destinado a niños mayores, debe incluir menos contenido visual y más contenido para adultos, como fotografías. El texto puede requerir un nivel de lectura más alto."
+  },
+  {
+    "id": 5,
+    "pagina_inicio": 5,
+    "pagina_fin": 5,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "LA ENSEÑANZA DIFERENCIADA",
+    "recomendacion": "Al crear o utilizar REA, tenga en cuenta las necesidades de sus estudiantes (incluidos los estudiantes con discapacidades y necesidades educativas específicas, así como los estudiantes de alto rendimiento), especialmente en el diseño y la metodología de los REA. Considerar las necesidades de los estudiantes desde el principio puede evitar la realización de adaptaciones posteriores.",
+    "ejemplo": "Intente desarrollar una única versión accesible para todos los estudiantes, considerando su diversidad. De lo contrario, cree versiones diferenciadas adaptadas a sus necesidades (ver Dimensión 4)."
+  },
+  {
+    "id": 6,
+    "pagina_inicio": 5,
+    "pagina_fin": 5,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "METADATOS",
+    "recomendacion": "Incluya instrucciones para las actividades de aprendizaje y explique las metodologías.",
+    "ejemplo": null
+  },
+  {
+    "id": 7,
+    "pagina_inicio": 5,
+    "pagina_fin": 5,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "METADATOS",
+    "recomendacion": "Indique para qué grupo objetivo de estudiantes se ha creado el recurso, así como los conocimientos previos necesarios.",
+    "ejemplo": null
+  },
+  {
+    "id": 8,
+    "pagina_inicio": 5,
+    "pagina_fin": 5,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "METADATOS",
+    "recomendacion": "Tenga en cuenta el tiempo estimado necesario para completar el material (hojas de ejercicios o planes de lecciones) (y prepare material y actividades adicionales para los estudiantes más rápidos).",
+    "ejemplo": null
+  },
+  {
+    "id": 9,
+    "pagina_inicio": 5,
+    "pagina_fin": 5,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "METADATOS",
+    "recomendacion": "Asegúrese de que los ejercicios y actividades estén respaldados por claves de respuestas o pautas de puntuación.",
+    "ejemplo": null
+  },
+  {
+    "id": 10,
+    "pagina_inicio": 5,
+    "pagina_fin": 5,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "IDIOMA",
+    "recomendacion": "Asegúrese de que el lenguaje sea claro, coherente, conciso y fácilmente comprensible para otros docentes y profesionales del ámbito educativo.",
+    "ejemplo": null
+  },
+  {
+    "id": 11,
+    "pagina_inicio": 5,
+    "pagina_fin": 5,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "ACTUALIZACIÓN",
+    "recomendacion": "Asegúrese de que el contenido sea actual, actualizado o atemporal. Si es necesario, actualícelo.",
+    "ejemplo": null
+  },
+  {
+    "id": 12,
+    "pagina_inicio": 6,
+    "pagina_fin": 6,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "ESTRUCTURA",
+    "recomendacion": "Asegúrese de que los REA proporcionen una estructura sólida para el desarrollo de conocimientos y habilidades. Por lo tanto, el contenido debe estructurarse en secuencias lógicas y manejables de módulos o lecciones/secciones.",
+    "ejemplo": null
+  },
+  {
+    "id": 13,
+    "pagina_inicio": 6,
+    "pagina_fin": 6,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "DIDÁCTICA",
+    "recomendacion": "Vincule el contenido nuevo con los conocimientos, habilidades y experiencias previas de los estudiantes.",
+    "ejemplo": null
+  },
+  {
+    "id": 14,
+    "pagina_inicio": 6,
+    "pagina_fin": 6,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "DIDÁCTICA",
+    "recomendacion": "Debe asegurar que los REA posibiliten la transferencia de nuevos conocimientos y habilidades a diferentes tareas, problemas o contextos para consolidar su aprendizaje o construir significado personal.",
+    "ejemplo": null
+  },
+  {
+    "id": 15,
+    "pagina_inicio": 6,
+    "pagina_fin": 6,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "DIDÁCTICA",
+    "recomendacion": "Asocie los constructos y contenidos teóricos con ejemplos cercanos a la vida de los estudiantes para que puedan ser transferidos a situaciones cotidianas.",
+    "ejemplo": "Realice ejercicios con un propósito familiar, como ir de compras, que requieran cálculos matemáticos. Especialmente para estudiantes con dificultades de aprendizaje."
+  },
+  {
+    "id": 16,
+    "pagina_inicio": 6,
+    "pagina_fin": 6,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "DIDÁCTICA",
+    "recomendacion": "Si mejora la comprensión del contenido por parte de los estudiantes, presente el contenido del REA en varios formatos (textos, gráficos, imágenes, etc.).",
+    "ejemplo": "Si fuera posible, muestre un video, analice el contenido y proporcione actividades prácticas."
+  },
+  {
+    "id": 17,
+    "pagina_inicio": 6,
+    "pagina_fin": 6,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "DIDÁCTICA",
+    "recomendacion": "Personalice los REA según el entorno de vida de sus estudiantes.",
+    "ejemplo": "Si un REA incluye una lectura sobre agricultura que menciona cultivos como el trigo o el maíz, pero sus estudiantes viven en una región donde predominan los olivos y los viñedos, podría modificar el recurso para incluir ejemplos de estos cultivos locales. Esto hace que el contenido sea más significativo y aplicable a su realidad."
+  },
+  {
+    "id": 18,
+    "pagina_inicio": 6,
+    "pagina_fin": 6,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "PARTICIPACIÓN",
+    "recomendacion": "Asegúrese de que las actividades de aprendizaje brinden oportunidades de interacción que respalden el aprendizaje activo.",
+    "ejemplo": "En una actividad de Piensa-En pareja-Comparte, los estudiantes reflexionan sobre una pregunta, la discuten con un compañero y la comparten con la clase. Esto promueve la interacción, el pensamiento crítico y el aprendizaje activo."
+  },
+  {
+    "id": 19,
+    "pagina_inicio": 7,
+    "pagina_fin": 7,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "PARTICIPACIÓN",
+    "recomendacion": "Cuando sea posible, cree o adapte los REA para promover el trabajo colaborativo.",
+    "ejemplo": null
+  },
+  {
+    "id": 20,
+    "pagina_inicio": 7,
+    "pagina_fin": 7,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "PARTICIPACIÓN",
+    "recomendacion": "Asegúrese de que los REA faciliten la participación de todos los estudiantes, de acuerdo con sus capacidades y habilidades, creando oportunidades de aprendizaje para todos.",
+    "ejemplo": null
+  },
+  {
+    "id": 21,
+    "pagina_inicio": 7,
+    "pagina_fin": 7,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "PARTICIPACIÓN",
+    "recomendacion": "Al planificar actividades de grupo, considere cómo la composición del grupo (más heterogénea o más homogénea) puede permitir el mejor resultado de aprendizaje posible para todos los estudiantes, teniendo en cuenta las competencias académicas y sociales de todos los estudiantes.",
+    "ejemplo": null
+  },
+  {
+    "id": 22,
+    "pagina_inicio": 7,
+    "pagina_fin": 7,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "RELEVANCIA PRÁCTICA",
+    "recomendacion": "Cree o utilice REA que también apoyen la adquisición de habilidades blandas, como la cooperación, la toma de decisiones, la resolución de problemas, el pensamiento crítico, el respeto, la comunicación no violenta, el manejo de las emociones y el estrés.",
+    "ejemplo": "Desarrolle un REA para enseñar a gestionar el estrés o a hablar en público."
+  },
+  {
+    "id": 23,
+    "pagina_inicio": 7,
+    "pagina_fin": 7,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "RELEVANCIA EN LA VIDA REAL",
+    "recomendacion": "Cuando sea posible, cree o utilice REA que promuevan estilos de vida saludables, como la nutrición, la salud mental y la higiene del sueño.",
+    "ejemplo": null
+  },
+  {
+    "id": 24,
+    "pagina_inicio": 7,
+    "pagina_fin": 7,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "MOTIVACIÓN",
+    "recomendacion": "Asegúrese de que el REA sea atractivo, interesante y llamativo, ya que puede tener un impacto positivo en la motivación de los estudiantes.",
+    "ejemplo": null
+  },
+  {
+    "id": 25,
+    "pagina_inicio": 7,
+    "pagina_fin": 7,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "MOTIVACIÓN",
+    "recomendacion": "Asegúrese de que los REA capten y mantengan la atención y el interés de los estudiantes.",
+    "ejemplo": "Utilice el humor (si es apropiado), utilice ejemplos de la vida diaria de los estudiantes, permita el aprendizaje lúdico, incluya los pasatiempos e intereses de los estudiantes, etc."
+  },
+  {
+    "id": 26,
+    "pagina_inicio": 7,
+    "pagina_fin": 7,
+    "dimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "subdimension": {
+      "id": "DI",
+      "nombre": "Didáctica inclusiva"
+    },
+    "categoria": "EVALUACIÓN FORMATIVA",
+    "recomendacion": "Incluya observación formativa y evaluación sumativa para asegurarse de poder seguir el proceso de aprendizaje de los estudiantes.",
+    "ejemplo": "Los estudiantes ven un video sobre el ciclo del agua. El profesor observa las discusiones (formativas) y asigna un breve cuestionario (sumativo) para comprobar la comprensión."
+  },
+  {
+    "id": 27,
+    "pagina_inicio": 8,
+    "pagina_fin": 8,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "APRENDIZAJE PERSONALIZADO",
+    "recomendacion": "Valora si las herramientas tecnológicas empleadas en el REA facilitan la consecución de los objetivos de aprendizaje marcados.",
+    "ejemplo": null
+  },
+  {
+    "id": 28,
+    "pagina_inicio": 8,
+    "pagina_fin": 8,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "APRENDIZAJE PERSONALIZADO",
+    "recomendacion": "Asegúrate de que las herramientas tecnológicas y recursos empleados en los REA fomentan la participación del alumnado y el aprendizaje activo.",
+    "ejemplo": "Usa foros, herramientas de aprendizaje colaborativo, herramientas de autoevaluación, etc."
+  },
+  {
+    "id": 29,
+    "pagina_inicio": 8,
+    "pagina_fin": 8,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "APRENDIZAJE PERSONALIZADO",
+    "recomendacion": "Comprueba que todo el alumnado tenga acceso a los medios tecnológicos requeridos para consultar el REA.",
+    "ejemplo": "Cerciórate de que los alumnos disponen de ordenador, acceso a internet o una impresora."
+  },
+  {
+    "id": 30,
+    "pagina_inicio": 8,
+    "pagina_fin": 8,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "APRENDIZAJE PERSONALIZADO",
+    "recomendacion": "Garantiza que los estudiantes con necesidades especiales también tengan acceso a los medios tecnológicos requeridos para usar el REA.",
+    "ejemplo": "Comprueba que el alumnado con discapacidad visual cuenta con un lector de pantalla o proporciona un ratón ergonómico para estudiantes con movilidad reducida."
+  },
+  {
+    "id": 31,
+    "pagina_inicio": 9,
+    "pagina_fin": 9,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "ADAPTABILIDAD",
+    "recomendacion": "Diseña REA que se puedan utilizar en diferentes contextos educativos: en clase, en ordenadores o en otros dispositivos (como tabletas o pizarras electrónicas), sistemas de e-learning, etc. Asegúrate de que el REA pueda ser modificado, actualizado o adaptado en función de los intereses y necesidades del alumnado.",
+    "ejemplo": "Facilita el REA en un formato editable (p. ej.: Word), en un archivo de texto plano o proporciona el código fuente para que pueda ser modificado."
+  },
+  {
+    "id": 32,
+    "pagina_inicio": 9,
+    "pagina_fin": 9,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "SECURIDAD",
+    "recomendacion": "Desarrolla el REA teniendo en cuenta todas las medidas posibles para garantizar la seguridad, la integridad y validez de la información.",
+    "ejemplo": "Utiliza protección por contraseña, encriptación, plataformas seguras, sistemas de gestión del aprendizaje, etc."
+  },
+  {
+    "id": 33,
+    "pagina_inicio": 9,
+    "pagina_fin": 9,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "AYUDA",
+    "recomendacion": "Garantiza la disponibilidad de enlaces o explicaciones sobre asistencia técnica en el REA.",
+    "ejemplo": "Ofrece sugerencias de solución a posibles problemas técnicos o enlaces a asistencia técnica."
+  },
+  {
+    "id": 34,
+    "pagina_inicio": 9,
+    "pagina_fin": 9,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "AYUDA",
+    "recomendacion": "Comprueba la disponibilidad de funciones de ayuda que identifiquen los problemas más comunes de los usuarios y sus soluciones.",
+    "ejemplo": "Asegúrate de que la interfaz de usuario disponga de mecanismos (p. ej., preguntas frecuentes o documentación de ayuda) para que los usuarios puedan solucionar los problemas que surjan en el uso del REA. Además, la ayuda debe ser fácil de localizar, especificar los pasos necesarios para resolver el problema y no ser muy extensa."
+  },
+  {
+    "id": 35,
+    "pagina_inicio": 9,
+    "pagina_fin": 9,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "DISEÑO",
+    "recomendacion": "Garantiza que el diseño visual de la interfaz de usuario sea claro y coherente para facilitar el aprendizaje. Evita el ruido visual y la sobrecarga de información.",
+    "ejemplo": "Emplea títulos breves, una fuente legible, justificación a la izquierda, colores equilibrados, etc. Evita elementos de distracción como colores irrelevantes o figuras e iconos con una función meramente ornamental."
+  },
+  {
+    "id": 36,
+    "pagina_inicio": 10,
+    "pagina_fin": 10,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "USABILIDAD",
+    "recomendacion": "Asegúrate de que el diseño del REA sea intuitivo.",
+    "ejemplo": "Parte de un diseño visual al que los usuarios estén habituados. Por ejemplo, utiliza iconos o imágenes de función inequívoca (p. ej.: una papelera como icono de eliminación)."
+  },
+  {
+    "id": 37,
+    "pagina_inicio": 10,
+    "pagina_fin": 10,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "PERSONALIZACIÓN",
+    "recomendacion": "Comprueba que el usuario pueda personalizar la interfaz (p. ej., cambiar el color de fondo o aumentar el contraste) para mejorar la legibilidad y la usabilidad del REA.",
+    "ejemplo": "Escoge colores oscuros para el texto y colores claros para el fondo. Puedes verificar que el contraste de colores sea el adecuado con herramientas como Color Contrast Analyzer."
+  },
+  {
+    "id": 38,
+    "pagina_inicio": 10,
+    "pagina_fin": 10,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "FUENTE",
+    "recomendacion": "Revisa que las fuentes empleadas sean legibles y visualmente atractivas o facilita que el usuario cambie el tipo de fuente, el color y el tamaño.",
+    "ejemplo": "Usa Times New Roman, Georgia, Arial, Calibri, Verdana o Tahoma. Si bien el tamaño mínimo es 10, se recomienda aumentarlo a 12 o 14 para estudiantes con discapacidad visual o dificultades de lectoescritura."
+  },
+  {
+    "id": 39,
+    "pagina_inicio": 10,
+    "pagina_fin": 10,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "DISEÑO Y FORMATO",
+    "recomendacion": "Verifica que el diseño de la interfaz refleje la información correctamente jerarquizada.",
+    "ejemplo": "Diseña los elementos de la interfaz (títulos, botones, enlaces, menús, etc.) de manera que sea comprensible y de fácil navegación."
+  },
+  {
+    "id": 40,
+    "pagina_inicio": 10,
+    "pagina_fin": 10,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "NAVEGACIÓN",
+    "recomendacion": "Comprueba que la navegación es previsible y eficaz.",
+    "ejemplo": "Elige nombres descriptivos para los elementos de navegación y emplea un diseño visual que los diferencie claramente de los demás elementos de la interfaz."
+  },
+  {
+    "id": 41,
+    "pagina_inicio": 10,
+    "pagina_fin": 10,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "NAVEGACIÓN",
+    "recomendacion": "Asegúrate de que la navegación sigue un orden lógico.",
+    "ejemplo": "Ordena de forma lógica los elementos de navegación (enlaces, barras de navegación, menús, etc.) y verifica que se mantengan siempre en la misma ubicación. Por ejemplo, las barras de navegación se pueden colocar en la parte superior o inferior de la pantalla. Respeta el número de elementos recomendados en un menú de navegación: entre 6 y 8."
+  },
+  {
+    "id": 42,
+    "pagina_inicio": 10,
+    "pagina_fin": 10,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "NAVEGACIÓN",
+    "recomendacion": "Integra los sistemas de orientación de la navegación en el REA para que los usuarios sepan dónde se encuentran en cada momento.",
+    "ejemplo": "Incluye en la interfaz rastro de migas de pan, barras de progreso, itinerarios didácticos, mapas del sitio web, etc."
+  },
+  {
+    "id": 43,
+    "pagina_inicio": 11,
+    "pagina_fin": 11,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "USABILIDAD",
+    "recomendacion": "Constata que las acciones de navegación se pueden deshacer.",
+    "ejemplo": "Facilita que los usuarios puedan volver a la página anterior o regresar a la página de inicio desde cualquier página."
+  },
+  {
+    "id": 44,
+    "pagina_inicio": 11,
+    "pagina_fin": 11,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "USO DE LOS REA",
+    "recomendacion": "Asegúrate de que el REA se proporciona bajo una licencia abierta, de uso libre o de código abierto. Indica de manera clara la licencia seleccionada para el REA, de modo que se definan sus condiciones de uso.",
+    "ejemplo": "Busca la declaración de licencia: verifica si hay una declaración de licencia en el material. Puede estar al principio, al final o en los metadatos de los archivos digitales. Identifica los símbolos o logotipos de las licencias: localiza los logotipos de Creative Commons (p. ej., CC BY, CC BY-SA) o expresiones como \"con una licencia...\", seguidas del tipo de licencia. Revisa los metadatos: comprueba los metadatos en los recursos en línea (p. ej., las pestañas de \"propiedades\" o \"información\" del archivo) para obtener información sobre la licencia. Algunos sitios web también especifican las licencias en su menú inferior o en las secciones de descarga o de política de privacidad."
+  },
+  {
+    "id": 45,
+    "pagina_inicio": 11,
+    "pagina_fin": 11,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "DESARROLLO DE LOS REA",
+    "recomendacion": "Asigna la licencia. Sigue estos pasos: — indica la licencia en tu recurso: “[nombre del REA]” de [tu nombre], con una licencia [tipo de licencia]. Publicado en [enlace al sitio web]. — descarga el logotipo de la licencia desde el sitio web enlazado y colócalo en la primera página o en el pie de página de tu REA.",
+    "ejemplo": "Consulta este ejemplo: “Recyclingkreislauf” de Jessica Berger, con una licencia CC-BY 4.0 International. Publicado en Flickr."
+  },
+  {
+    "id": 46,
+    "pagina_inicio": 12,
+    "pagina_fin": 12,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "LICENCIAS",
+    "recomendacion": "Asegúrate de que todos los elementos creados o incluidos en el REA (textos, vídeos, archivos de audio u otros materiales) cumplen con los requisitos de la licencia del REA o con los establecidos por otras licencias similares o compatibles, como las Creative Commons.",
+    "ejemplo": "Comprueba que todos los recursos y materiales empleados en tu REA están correctamente citados y referenciados."
+  },
+  {
+    "id": 47,
+    "pagina_inicio": 12,
+    "pagina_fin": 12,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "LICENCIAS",
+    "recomendacion": "No uses materiales ajenos sin la debida autorización o permiso y evita el plagio.",
+    "ejemplo": "Reconoce la autoría o especifica la licencia de los textos, imágenes, vídeos u otros elementos que hayas empleado en tu REA."
+  },
+  {
+    "id": 48,
+    "pagina_inicio": 12,
+    "pagina_fin": 12,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "LICENCIAS",
+    "recomendacion": "Reconoce la autoría de imágenes, ilustraciones, vídeos u otros elementos multimedia. Incluye la autoría y la licencia en el pie.",
+    "ejemplo": "“[Título de la ilustración]” de [nombre del creador o creadora], con licencia [nombre de la licencia]. Recuperado de [nombre del sitio web]."
+  },
+  {
+    "id": 49,
+    "pagina_inicio": 12,
+    "pagina_fin": 13,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "ELECCIÓN DE LOS METADATOS",
+    "recomendacion": "Incluye los metadatos más relevantes para que tu REA sea fácilmente localizable.",
+    "ejemplo": "Aporta información clara y precisa para facilitar la localización de tu REA. Puedes añadir los siguientes datos: 1. Información básica (título, autor o autora, descripción, idioma, fecha de creación) 2. Información didáctica (asignatura, nivel educativo, objetivos de aprendizaje) 3. Licencia 4. Información técnica (formato del archivo y tamaño) 5. Palabras clave/etiquetas 6. Información de uso (características de accesibilidad)"
+  },
+  {
+    "id": 50,
+    "pagina_inicio": 13,
+    "pagina_fin": 13,
+    "dimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "subdimension": {
+      "id": "DT",
+      "nombre": "Dimensión técnica y tecnológica"
+    },
+    "categoria": "ADAPTACIÓN DE LOS REA",
+    "recomendacion": "Asegúrate de que existen mecanismos para que los usuarios suban una versión revisada o adaptada de tu REA.",
+    "ejemplo": "Posibilita que otros usuarios suban revisiones o adaptaciones de tu REA. Por ejemplo, puedes usar la herramienta eXeLearning."
+  },
+  {
+    "id": 51,
+    "pagina_inicio": 14,
+    "pagina_fin": 14,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "SENSIBILIDAD HACIA LA DIVERSIDAD",
+    "recomendacion": "Siempre que sea posible, los materiales deben reflejar la diversidad del alumnado en el aula. Ofrezca variedad en las ilustraciones de personajes, estilos de vida, lenguaje, etc.",
+    "ejemplo": "Por ejemplo, un cómic puede incluir superhéroes con diferentes rasgos físicos y orígenes culturales diversos."
+  },
+  {
+    "id": 52,
+    "pagina_inicio": 15,
+    "pagina_fin": 15,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "GENDER BEWUSSTSEIN",
+    "recomendacion": "Garantice que no haya predominio de un solo género en las representaciones visuales.",
+    "ejemplo": "En una imagen de un grupo de 4 estudiantes, puede haber 2 chicas y 2 chicos. No siempre deben aparecer los chicos en el centro o delante de la foto, ni las chicas detrás o a los lados; varíe las imágenes que presente. Si no encuentra una imagen con licencia abierta que cumpla este criterio, utilice herramientas de inteligencia artificial."
+  },
+  {
+    "id": 53,
+    "pagina_inicio": 15,
+    "pagina_fin": 15,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "GENDER BEWUSSTSEIN",
+    "recomendacion": "Evite los estereotipos de género en los textos o imágenes al representar actividades profesionales o roles sociales.",
+    "ejemplo": "Evite mostrar siempre hombres como médicos y mujeres como enfermeras, o madres en casa y padres trabajando."
+  },
+  {
+    "id": 54,
+    "pagina_inicio": 15,
+    "pagina_fin": 15,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "GENDER BEWUSSTSEIN",
+    "recomendacion": "Asegúrese de no utilizar lenguaje ni imágenes sexistas en cuanto a la ropa mostrada, accesorios, actitudes, aficiones, etc.",
+    "ejemplo": "Las chicas en una fotografía pueden aparecer tanto con falda como con pantalón, con el pelo corto o largo. Evite los estereotipos, por ejemplo, que los chicos siempre jueguen al fútbol y las chicas siempre vistan de rosa."
+  },
+  {
+    "id": 55,
+    "pagina_inicio": 15,
+    "pagina_fin": 15,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "GENDER BEWUSSTSEIN",
+    "recomendacion": "Evite el uso de generalizaciones masculinas y términos masculinos singulares para referirse a personas de diferentes géneros. Utilice sustantivos que no sean específicos de género.",
+    "ejemplo": "En lugar de decir “Cada alumno debe hacer sus deberes”, diga “Cada estudiante debe hacer sus deberes” o “Todos los estudiantes deben hacer sus deberes”. Use “oficial” en lugar de “policía” o “mujer policía”."
+  },
+  {
+    "id": 56,
+    "pagina_inicio": 15,
+    "pagina_fin": 15,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "GENDER BEWUSSTSEIN",
+    "recomendacion": "Garantice que las contribuciones realizadas en los distintos campos del conocimiento (por ejemplo, arte o biología) por mujeres y hombres sean igualmente visibles.",
+    "ejemplo": null
+  },
+  {
+    "id": 57,
+    "pagina_inicio": 15,
+    "pagina_fin": 15,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "GENDER BEWUSSTSEIN",
+    "recomendacion": "Ofrezca actividades y ejemplos que promuevan el análisis crítico de las desigualdades de género. Debata y analice los roles de género en distintos contextos, como las responsabilidades domésticas, las profesiones o la representación en los medios.",
+    "ejemplo": "Por ejemplo, los estudiantes pueden analizar por qué ciertas tareas, como cocinar o cuidar, suelen asociarse a las mujeres, mientras que otras, como las reparaciones domésticas o la gestión económica, se vinculan a los hombres. Anímeles a cuestionar estos estereotipos, compartir experiencias personales y proponer formas de redefinir los roles tradicionales."
+  },
+  {
+    "id": 58,
+    "pagina_inicio": 16,
+    "pagina_fin": 16,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "SENSIBILIDAD CULTURAL",
+    "recomendacion": "Asegúrese de que haya variedad en la representación visual de las personas (por ejemplo, diferentes características físicas), de modo que todos los estudiantes se sientan representados.",
+    "ejemplo": "Si en su clase hay personas de diferentes razas, incluya representaciones gráficas diversas."
+  },
+  {
+    "id": 59,
+    "pagina_inicio": 16,
+    "pagina_fin": 16,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "SENSIBILIDAD CULTURAL",
+    "recomendacion": "Utilice ejemplos en los textos o en otros medios que procedan de distintas culturas y tradiciones.",
+    "ejemplo": "Por ejemplo, mencione la música tradicional o la preparación de comidas típicas en Navidad o durante el Ramadán."
+  },
+  {
+    "id": 60,
+    "pagina_inicio": 16,
+    "pagina_fin": 16,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "SENSIBILIDAD CULTURAL",
+    "recomendacion": "Ofrezca oportunidades intencionadas para conocer diferentes culturas.",
+    "ejemplo": "Incluya actividades sobre tradiciones de otros países que se celebren en fechas similares; por ejemplo, la Cuaresma cristiana y el Ramadán musulmán."
+  },
+  {
+    "id": 61,
+    "pagina_inicio": 16,
+    "pagina_fin": 16,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "SENSIBILIDAD CULTURAL",
+    "recomendacion": "Garantice que los contenidos sean lo más objetivos posible y respetuosos, libres de sesgos ideológicos.",
+    "ejemplo": "En las clases de historia, asegúrese de incluir textos que muestren los puntos de vista de las distintas poblaciones involucradas."
+  },
+  {
+    "id": 62,
+    "pagina_inicio": 16,
+    "pagina_fin": 16,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "SENSIBILIDAD CULTURAL",
+    "recomendacion": "Asegúrese de que las contribuciones realizadas en los diferentes campos del conocimiento por personas de distintas culturas sean igualmente visibles.",
+    "ejemplo": "Cuando sea apropiado, mencione a personas de diferentes etnias relacionadas con un tema (por ejemplo, ganadores del Premio Nobel de la Paz)."
+  },
+  {
+    "id": 63,
+    "pagina_inicio": 16,
+    "pagina_fin": 16,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "SENSIBILIDAD CULTURAL",
+    "recomendacion": "Asegúrese de que los contenidos, los elementos visuales y las estrategias didácticas sean culturalmente sensibles, teniendo en cuenta las diferencias étnicas, religiosas y culturales de los estudiantes.",
+    "ejemplo": null
+  },
+  {
+    "id": 64,
+    "pagina_inicio": 16,
+    "pagina_fin": 16,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "SENSIBILIDAD CULTURAL",
+    "recomendacion": "Garantice que el lenguaje del REA sea accesible para todos los estudiantes, teniendo en cuenta su lengua familiar, su dominio del idioma de enseñanza o el multilingüismo.",
+    "ejemplo": "Si tiene estudiantes que hablan español y árabe, traduzca el REA a ambos idiomas, adapte el nivel de dificultad del lenguaje o añada una herramienta de traducción automática (por ejemplo, Microsoft Immersive Reader o Google Translate)."
+  },
+  {
+    "id": 65,
+    "pagina_inicio": 17,
+    "pagina_fin": 17,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "NIVEL SOCIOECONÓMICO",
+    "recomendacion": "Destaque historias de personas que alcanzan el éxito o la felicidad por diversos medios, no solo por su estatus socioeconómico. Promueva conversaciones sobre la conciencia del privilegio.",
+    "ejemplo": null
+  },
+  {
+    "id": 66,
+    "pagina_inicio": 17,
+    "pagina_fin": 17,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "NIVEL SOCIOECONÓMICO",
+    "recomendacion": "Utilice imágenes o ilustraciones que no impliquen únicamente riqueza o privilegio (por ejemplo, casas de lujo o marcas caras). En su lugar, elija imágenes que reflejen entornos diversos y cotidianos (por ejemplo, parques públicos, espacios compartidos o entornos comunitarios).",
+    "ejemplo": null
+  },
+  {
+    "id": 67,
+    "pagina_inicio": 17,
+    "pagina_fin": 17,
+    "dimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "subdimension": {
+      "id": "SD",
+      "nombre": "Sensibilidad hacia la diversidad"
+    },
+    "categoria": "NIVEL SOCIOECONÓMICO",
+    "recomendacion": "Al referirse a productos en los materiales, evite mencionar marcas de lujo o artículos costosos.",
+    "ejemplo": "Ejemplo a evitar: “Juan compró unas zapatillas de la marca X por 120 €”. Alternativa: “Juan compró unas zapatillas por 120 €”."
+  },
+  {
+    "id": 68,
+    "pagina_inicio": 18,
+    "pagina_fin": 18,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Para los estudiantes que lo necesiten, proporcione diferentes versiones del documento, ajustando los espacios entre letras, palabras y líneas.",
+    "ejemplo": "Puede aumentar el espacio entre letras, por ejemplo, en Word, haciendo clic en \"Fuente\", \"Avanzado\" y luego en \"Espaciado\". Aquí encontrará más información . También puede usar el lector inmersivo."
+  },
+  {
+    "id": 69,
+    "pagina_inicio": 18,
+    "pagina_fin": 18,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Proporcione una forma de identificar definiciones específicas de palabras, frases o abreviaturas que son nuevas para los estudiantes o que se utilizan de manera inusual (por ejemplo, modismos y jerga).",
+    "ejemplo": "Si es necesario, agregue una sección con un diccionario de términos o incluya la definición de una palabra cerca de ella (en la misma línea, debajo de ella, entre paréntesis o como una ventana emergente) la primera vez que aparezca."
+  },
+  {
+    "id": 70,
+    "pagina_inicio": 18,
+    "pagina_fin": 18,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Tenga en cuenta que la estructura, como el orden de lectura y los elementos interactivos, puedan reconocerse y mostrarse claramente mediante tecnologías de asistencia.",
+    "ejemplo": "Las etiquetas de cada casilla de verificación deben ser identificables mediante tecnología de asistencia, por ejemplo, un lector de pantalla."
+  },
+  {
+    "id": 71,
+    "pagina_inicio": 18,
+    "pagina_fin": 18,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Asegúrese de que la información se transmita de múltiples maneras, como mediante etiquetas de texto, patrones, señales auditivas, colores, forma, tamaño, ubicación visual u orientación.",
+    "ejemplo": "En lugar de utilizar únicamente el color rojo para indicar que ciertos campos de un formulario son obligatorios, utilice también un asterisco para marcarlos."
+  },
+  {
+    "id": 72,
+    "pagina_inicio": 19,
+    "pagina_fin": 19,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Asegúrese de que el contenido sea fácilmente legible tanto en orientación horizontal como vertical, a menos que una orientación específica sea esencial.",
+    "ejemplo": null
+  },
+  {
+    "id": 73,
+    "pagina_inicio": 19,
+    "pagina_fin": 19,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Mantenga la coherencia entre los iconos y el texto con el mismo propósito en todo el REA.",
+    "ejemplo": null
+  },
+  {
+    "id": 74,
+    "pagina_inicio": 19,
+    "pagina_fin": 19,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Al crear una lista, utilice la función correspondiente.",
+    "ejemplo": "Utilice la función de lista en lugar de agregar símbolos o caracteres, ya que los lectores de pantalla, por ejemplo, podrían no reconocerla como una lista."
+  },
+  {
+    "id": 75,
+    "pagina_inicio": 19,
+    "pagina_fin": 19,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Asegúrese de que el texto se pueda redimensionar sin tecnología de asistencia hasta en un 200 por ciento, sin pérdida de contenido ni funcionalidad.",
+    "ejemplo": "Por ejemplo, el texto se puede ampliar utilizando Control+ en el navegador o cambiando su tamaño en la configuración del dispositivo utilizado para ejecutar la aplicación."
+  },
+  {
+    "id": 76,
+    "pagina_inicio": 19,
+    "pagina_fin": 19,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Para garantizar que la tecnología de asistencia pueda identificar el idioma del contenido, indique el idioma al principio y cuando cambie, para que el lector de pantalla pueda leerlo correctamente.",
+    "ejemplo": null
+  },
+  {
+    "id": 77,
+    "pagina_inicio": 19,
+    "pagina_fin": 19,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "IMÁGENES, TABLAS Y GRÁFICOS",
+    "recomendacion": "Use imágenes claras, fáciles de entender y con una calidad, tamaño, resolución y brillo adecuados. Evite las imágenes borrosas.",
+    "ejemplo": "Si el texto explica el ciclo del agua, incluya un diagrama claro que muestre la evaporación, condensación, precipitación y recogida, con flechas y etiquetas simples que faciliten la comprensión."
+  },
+  {
+    "id": 78,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "IMÁGENES, TABLAS Y GRÁFICOS",
+    "recomendacion": "Describa todas las imágenes mediante un texto alternativo para que pueda ser leído por un lector de pantalla.",
+    "ejemplo": "El texto alternativo puede añadirse, por ejemplo, haciendo clic derecho sobre el objeto y seleccionando “Editar texto alternativo”. Ejemplo: “Diagrama del ciclo del agua”."
+  },
+  {
+    "id": 79,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "IMÁGENES, TABLAS Y GRÁFICOS",
+    "recomendacion": "Asegúrese de que haya suficiente contraste entre el fondo y el primer plano en las imágenes utilizadas.",
+    "ejemplo": "Si hay un fondo de cielo y montañas detrás de una vaca sobre el pasto, deben distinguirse claramente."
+  },
+  {
+    "id": 80,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "IMÁGENES, TABLAS Y GRÁFICOS",
+    "recomendacion": "No incluya texto dentro de las imágenes.",
+    "ejemplo": "En lugar de insertar el texto dentro de la imagen, escríbalo como título o en un párrafo aparte."
+  },
+  {
+    "id": 81,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "IMÁGENES, TABLAS Y GRÁFICOS",
+    "recomendacion": "Al utilizar tablas, asegúrese de que estén bien estructuradas y claramente descritas.",
+    "ejemplo": "Incluya una fila de encabezado y mantenlas simples, evitando celdas vacías, combinadas o anidadas."
+  },
+  {
+    "id": 82,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "IMÁGENES, TABLAS Y GRÁFICOS",
+    "recomendacion": "Cuando sea posible, use patrones u otros medios alternativos además del color para diferenciar contenidos o funcionalidades.",
+    "ejemplo": "En los gráficos, en lugar de usar solo los colores verde y rojo, utilice puntos y rayas para distinguirlos, facilitando la comprensión también para personas con daltonismo."
+  },
+  {
+    "id": 83,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "IMÁGENES, TABLAS Y GRÁFICOS",
+    "recomendacion": "Evite insertar tablas como imágenes o capturas de pantalla: créelas directamente en el documento.",
+    "ejemplo": null
+  },
+  {
+    "id": 84,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "AUDIO",
+    "recomendacion": "Asegúrese de que el audio tenga buena calidad en cuanto a tono, duración, intensidad y claridad. Si es necesario, reduzca el ruido de fondo.",
+    "ejemplo": "Puede editar el audio, por ejemplo, con el software Audacity."
+  },
+  {
+    "id": 85,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "AUDIO",
+    "recomendacion": "Evite el audio de fondo o redúcelo.",
+    "ejemplo": "No hay música de fondo mientras alguien habla."
+  },
+  {
+    "id": 86,
+    "pagina_inicio": 20,
+    "pagina_fin": 20,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "AUDIO",
+    "recomendacion": "Verifique que la voz en el audio sea lenta, clara y con un volumen adecuado.",
+    "ejemplo": null
+  },
+  {
+    "id": 87,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "AUDIO",
+    "recomendacion": "Si graba una pista de audio, asegúrese de que la voz tenga buena pronunciación y dicción, y deje pausas suficientes para que el público comprenda la información antes de continuar.",
+    "ejemplo": null
+  },
+  {
+    "id": 88,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "AUDIO",
+    "recomendacion": "Proporcione controles visibles y accesibles para pausar o detener el audio. Si es posible, incluya controles separados de volumen o silencio para efectos, voz y música de fondo.",
+    "ejemplo": "Asegúrese de que haya botones para detener, pausar y ajustar el volumen."
+  },
+  {
+    "id": 89,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "AUDIO",
+    "recomendacion": "Si tiene estudiantes con discapacidad auditiva, incluya una transcripción textual del audio (véase el apartado 5.3: subtitulado y audiodescripción). Asegúrese también de que los estudiantes puedan controlar las alternativas textuales.",
+    "ejemplo": "La transcripción puede ser útil para quienes no pueden escuchar el audio, además de poder traducirse a otros idiomas o imprimirse en braille. Asegúrese de incluir botones para mostrar/ocultar las alternativas textuales."
+  },
+  {
+    "id": 90,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "VÍDEO",
+    "recomendacion": "Asegúrese de que el vídeo y el sonido sean claros y de alta calidad.",
+    "ejemplo": null
+  },
+  {
+    "id": 91,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "VÍDEO",
+    "recomendacion": "Proporcione alternativas sincronizadas para el vídeo.",
+    "ejemplo": "Añada subtitulado, audiodescripción, transcripción completa o lengua de signos (LS)."
+  },
+  {
+    "id": 92,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "VÍDEO",
+    "recomendacion": "Proporcione una descripción textual y transcripción del vídeo.",
+    "ejemplo": null
+  },
+  {
+    "id": 93,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "VÍDEO",
+    "recomendacion": "Garantice que los estudiantes tengan control sobre la gestión de la reproducción del vídeo y sus alternativas.",
+    "ejemplo": "Hay botones para parar, pausar, avanzar y retroceder el vídeo. Hay botones para mostrar las alternativas."
+  },
+  {
+    "id": 94,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "VÍDEO",
+    "recomendacion": "Asegúrese de que haya suficiente contraste entre el fondo y el primer plano del vídeo.",
+    "ejemplo": null
+  },
+  {
+    "id": 95,
+    "pagina_inicio": 21,
+    "pagina_fin": 21,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "VÍDEO",
+    "recomendacion": "Evite la cámara lenta y rápida.",
+    "ejemplo": null
+  },
+  {
+    "id": 96,
+    "pagina_inicio": 22,
+    "pagina_fin": 22,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Al elaborar el contenido, evite las elecciones de diseño que tienden a provocar convulsiones o reacciones físicas.",
+    "ejemplo": "Absténgase de usar elementos intermitentes."
+  },
+  {
+    "id": 97,
+    "pagina_inicio": 22,
+    "pagina_fin": 22,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Mantenga la coherencia en la identificación y apariencia (forma, tamaño, color, ubicación, etc.) de los elementos que tienen la misma funcionalidad (enlaces, iconos, botones, etc.) en todo el sitio web, la aplicación o el documento.",
+    "ejemplo": "Por ejemplo, si el icono de búsqueda es una lupa, debe continuar siendo una lupa en todo el REA."
+  },
+  {
+    "id": 98,
+    "pagina_inicio": 22,
+    "pagina_fin": 22,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Resalte visualmente los elementos interactivos, como los hipervínculos, los botones, las listas, los menús y los cuadros de diálogo. En el caso de los hipervínculos, aclare adónde dirigen.",
+    "ejemplo": "Subraye el texto de los hipervínculos o colóquelos en un cuadro."
+  },
+  {
+    "id": 99,
+    "pagina_inicio": 22,
+    "pagina_fin": 22,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Asegúrese de que los elementos interactivos y los controles virtuales sean grandes y estén bien espaciados, sobre todo en pantallas pequeñas o táctiles, o que puedan ajustarse en tamaño para mejorar la experiencia interactiva de los estudiantes.",
+    "ejemplo": "El tamaño de un botón en la pantalla de un teléfono móvil debe ser de al menos 9 mm."
+  },
+  {
+    "id": 100,
+    "pagina_inicio": 22,
+    "pagina_fin": 22,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Ofrezca opciones para pausar, detener u ocultar cualquier información que se mueva, parpadee, se actualice automáticamente o se desplace, siempre que sea posible, cuando cumpla alguno de los siguientes criterios: (1) se inicia automáticamente, (2) dura más de cinco segundos o (3) se muestra simultáneamente con otros contenidos.",
+    "ejemplo": "Si una página incluye un vídeo con sonido de inicio automático, ofrezca controles para pausar, parar o silenciar el vídeo. Por ejemplo, en un vídeo de demostración de un experimento de ciencias, los estudiantes deberían poder iniciarlo manualmente y modificar los ajustes a su conveniencia."
+  },
+  {
+    "id": 101,
+    "pagina_inicio": 22,
+    "pagina_fin": 22,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Garantice que todo el contenido y las funcionalidades de los distintos controles estén disponibles para las tecnologías de asistencia, como los lectores de pantalla.",
+    "ejemplo": null
+  },
+  {
+    "id": 102,
+    "pagina_inicio": 22,
+    "pagina_fin": 22,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Compruebe que los elementos del entorno de aprendizaje (por ejemplo, los botones) cambian de estado y posición solo cuando es necesario, ya que esto ayuda a evitar la confusión.",
+    "ejemplo": "A los estudiantes con dificultades les resulta más fácil encontrar el botón de «volver» si se coloca siempre en la esquina inferior izquierda."
+  },
+  {
+    "id": 103,
+    "pagina_inicio": 22,
+    "pagina_fin": 22,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Permita a los estudiantes comprobar su progreso, indicando, por ejemplo, qué partes han completado con éxito.",
+    "ejemplo": "Un sistema de puntuación con estrellas o una barra de progreso en cada ejercicio puede ayudar a comprender el estado de compleción de una sesión."
+  },
+  {
+    "id": 104,
+    "pagina_inicio": 23,
+    "pagina_fin": 23,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Permita a los estudiantes guardar su progreso para que puedan retomar su trabajo más tarde.",
+    "ejemplo": "Use programas que permitan pausar y guardar el trabajo automática o manualmente, evitando que los estudiantes tengan que reintroducir toda la información."
+  },
+  {
+    "id": 105,
+    "pagina_inicio": 23,
+    "pagina_fin": 23,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Incluya un mecanismo para revisar, confirmar y corregir la información antes de que los estudiantes finalicen el envío de datos.",
+    "ejemplo": "Por ejemplo, antes de enviar las respuestas, la aplicación debería pedir una confirmación al estudiante."
+  },
+  {
+    "id": 106,
+    "pagina_inicio": 23,
+    "pagina_fin": 23,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Asegúrese de que cada sección o pantalla del sitio web o aplicación incluye un título o encabezamiento y de que el orden es intuitivo y guía al estudiante paso a paso por el REA.",
+    "ejemplo": "Por ejemplo, en un formulario, los campos deben disponerse en el orden en que deben rellenarse."
+  },
+  {
+    "id": 107,
+    "pagina_inicio": 23,
+    "pagina_fin": 23,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Garantice que la funcionalidad de cada material educativo digital sea fácil de manejar a través de dispositivos de entrada estándar (teclado, ratón) y también a través de otros no estándar que utilicen tecnología de apoyo adicional (botones, emuladores, etc.).",
+    "ejemplo": null
+  },
+  {
+    "id": 108,
+    "pagina_inicio": 23,
+    "pagina_fin": 23,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Reduzca la activación accidental de controles.",
+    "ejemplo": "Por ejemplo, en el caso de los elementos de la interfaz que responden a un solo toque o a una pulsación larga, su evento correspondiente se activa cuando se levanta el dedo mientras aún se está dentro de ese elemento."
+  },
+  {
+    "id": 109,
+    "pagina_inicio": 23,
+    "pagina_fin": 23,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Asegúrese de que los formularios sean fáciles de rellenar y proporcione herramientas para ayudar a los estudiantes a cumplimentarlos, junto con opciones para evitar y/o corregir cualquier error durante el proceso.",
+    "ejemplo": "Los predictores de palabras y el uso de listas y listas con valores por defecto evitan teclear y, en consecuencia, minimizan los errores."
+  },
+  {
+    "id": 110,
+    "pagina_inicio": 23,
+    "pagina_fin": 23,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Proporcione tecnologías de asistencia con apoyo oficial que ya sean plenamente accesibles. Garantice que las herramientas de terceros que se utilicen sean accesibles.",
+    "ejemplo": "Por ejemplo, el software para eye-tracking."
+  },
+  {
+    "id": 111,
+    "pagina_inicio": 23,
+    "pagina_fin": 23,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "SITIOS WEB Y APPS",
+    "recomendacion": "Al elaborar el contenido, evite las elecciones de diseño que tienden a provocar convulsiones o reacciones físicas.",
+    "ejemplo": "Absténgase de usar elementos intermitentes."
+  },
+  {
+    "id": 112,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Compruebe que el juego es accesible para todos los estudiantes de la clase.",
+    "ejemplo": "Si usa https://genially.com para crear un juego, puede emplear todos los ajustes de accesibilidad que se ofrecen."
+  },
+  {
+    "id": 113,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Compruebe que el juego es fácil de aprender, pero difícil de dominar.",
+    "ejemplo": "Pueden ofrecerse varios niveles de dificultad."
+  },
+  {
+    "id": 114,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Asegúrese de que el juego no suponga una carga innecesaria para el jugador.",
+    "ejemplo": "El juego se adapta al nivel cognitivo o a las habilidades motrices del alumno."
+  },
+  {
+    "id": 115,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Asegúrese de que los jugadores sienten que sus acciones son significativas. Las acciones deben tener un efecto directo y una respuesta inmediata para que los jugadores tengan una sensación de control e influencia en el mundo del juego.",
+    "ejemplo": "El juego no continúa hasta que el jugador pulsa un botón, se requiere la acción del jugador para activar el juego, empezar un capítulo, reproducir sonidos, etc."
+  },
+  {
+    "id": 116,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Compruebe que los controles del juego son coherentes, intuitivos y están asignados de forma natural (es decir, se controlan con las teclas más convencionales del juego).",
+    "ejemplo": "El botón o tecla de flecha derecha mueve un personaje hacia la derecha."
+  },
+  {
+    "id": 117,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Ofrezca un tutorial para introducir todos los controles generales necesarios para progresar en el juego mediante una serie de pequeñas tareas.",
+    "ejemplo": "Antes de empezar el primer capítulo, el jugador puede aprender cómo moverse por el juego paso a paso."
+  },
+  {
+    "id": 118,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Compruebe que los retos del juego están en orden para que los jugadores apliquen los conocimientos adquiridos en problemas anteriores para resolver los siguientes.",
+    "ejemplo": "Primero muestre cómo se puede hacer saltar a un personaje antes de ponerlo en una situación en la que tenga que saltar."
+  },
+  {
+    "id": 119,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Proporcione información como descripciones de situaciones o pistas «a la carta» y «justo a tiempo».",
+    "ejemplo": "No revele lo que va a ocurrir a menos que el jugador lo pida o esté en una escena que requiera instrucciones."
+  },
+  {
+    "id": 120,
+    "pagina_inicio": 24,
+    "pagina_fin": 24,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Asegúrese de que el objetivo u objetivos del juego puedan ser entendidos por todos los estudiantes, con y sin discapacidad.",
+    "ejemplo": "Las puntuaciones pueden mostrarse con un número, con una o varias estrellas o con una barra de progreso."
+  },
+  {
+    "id": 121,
+    "pagina_inicio": 25,
+    "pagina_fin": 25,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "En el caso de jugadores con dificultades visuales, utilice sonido estéreo, binaural o envolvente para la localización de los objetos del juego. Seleccione sonidos y música distintivos para todos los objetos y eventos interactivos.",
+    "ejemplo": "El audio estéreo proporciona una sensación de direccionalidad, el audio binaural profundiza en la réplica de la percepción y el audio inmersivo rodea al oyente con un entorno sonoro tridimensional. Cada personaje puede tener un sonido distintivo cuando lo tocas o lo mueves."
+  },
+  {
+    "id": 122,
+    "pagina_inicio": 25,
+    "pagina_fin": 25,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "AT",
+      "nombre": "Accesibilidad tecnológica"
+    },
+    "categoria": "JUEGOS EDUCATIVOS",
+    "recomendacion": "Asegúrese de que la historia del juego fomenta la inmersión y la identidad si el juego tiene un componente de historia.",
+    "ejemplo": "El fondo puede ser algún lugar conocido o significativo. Se pueden usar avatares para asociar o identificar a los jugadores."
+  },
+  {
+    "id": 123,
+    "pagina_inicio": 27,
+    "pagina_fin": 27,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "VOCABULARIO SIMPLE Y COHERENTE",
+    "recomendacion": "Use vocabulario común y simple. Use la misma palabra para referirse al mismo objeto o hecho a lo largo de todo el texto.",
+    "ejemplo": null
+  },
+  {
+    "id": 124,
+    "pagina_inicio": 27,
+    "pagina_fin": 27,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ABREVIATURAS",
+    "recomendacion": "Evite los acrónimos y las abreviaturas. Si son esenciales, explíquelos.",
+    "ejemplo": null
+  },
+  {
+    "id": 125,
+    "pagina_inicio": 27,
+    "pagina_fin": 27,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "EXPLIQUE LOS TÉRMINOS DIFÍCILES",
+    "recomendacion": "No utilice demasiados términos abstractos, técnicos o complejos. Si son esenciales, incluya una explicación.",
+    "ejemplo": null
+  },
+  {
+    "id": 126,
+    "pagina_inicio": 27,
+    "pagina_fin": 27,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "GLOSARIO",
+    "recomendacion": "Incluya un glosario. Use glosas, breves explicaciones colocadas cerca de la palabra o expresión en cuestión. En textos largos, cree un diccionario. Subraye las entradas del diccionario en el texto. Explique siempre cómo usar el diccionario.",
+    "ejemplo": null
+  },
+  {
+    "id": 127,
+    "pagina_inicio": 27,
+    "pagina_fin": 27,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ORACIONES",
+    "recomendacion": "Cree oraciones cortas y simples gramática y sintácticamente adaptándose a la lengua del texto. Si es posible, escriba una única idea por oración y línea. No escriba más de dos ideas por oración.",
+    "ejemplo": "En alemán, español e inglés, use el orden «Sujeto + Verbo + Objeto»."
+  },
+  {
+    "id": 128,
+    "pagina_inicio": 27,
+    "pagina_fin": 27,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "PÁRRAFOS",
+    "recomendacion": "Use saltos de párrafo para dividir oraciones o frases con diferentes ideas. No segmente los párrafos. Si un párrafo no cabe completo en una página, comiéncelo en la siguiente.",
+    "ejemplo": null
+  },
+  {
+    "id": 129,
+    "pagina_inicio": 27,
+    "pagina_fin": 27,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "VOZ ACTIVA",
+    "recomendacion": "Use la voz activa.",
+    "ejemplo": null
+  },
+  {
+    "id": 130,
+    "pagina_inicio": 28,
+    "pagina_fin": 28,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ORACIONES AFIRMATIVAS",
+    "recomendacion": "Use oraciones afirmativas. Excepción: cuando una oración negative sea más clara y directa. Por ejemplo, en prohibiciones simples como «no fumar».",
+    "ejemplo": null
+  },
+  {
+    "id": 131,
+    "pagina_inicio": 28,
+    "pagina_fin": 28,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "VERBOS",
+    "recomendacion": "Use preferiblemente tiempos simples. Cuando sea posible, use el presente.",
+    "ejemplo": null
+  },
+  {
+    "id": 132,
+    "pagina_inicio": 28,
+    "pagina_fin": 28,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "PRONOMBRES",
+    "recomendacion": "Evite reemplazar los sustantivos con pronombres. Excepción: cuando la referencia sea fácilmente identificable (por ejemplo: «Elisa juega con la pelota. Quiere ser futbolista»).",
+    "ejemplo": null
+  },
+  {
+    "id": 133,
+    "pagina_inicio": 28,
+    "pagina_fin": 28,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "NÚMEROS",
+    "recomendacion": "Escriba los números en dígitos. Para números grandes, use comparaciones cualitativas o reemplácelos por términos como varios, miles o millones si es posible.",
+    "ejemplo": null
+  },
+  {
+    "id": 134,
+    "pagina_inicio": 28,
+    "pagina_fin": 28,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "FONDO",
+    "recomendacion": "No use fondos que dificulten la lectura. Opte por un color uniforme que tenga buen contraste con el texto.",
+    "ejemplo": null
+  },
+  {
+    "id": 135,
+    "pagina_inicio": 28,
+    "pagina_fin": 28,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "COLORES",
+    "recomendacion": "No use demasiados colores. Úselos con moderación y, a ser posible, no como única característica distintiva.",
+    "ejemplo": null
+  },
+  {
+    "id": 136,
+    "pagina_inicio": 28,
+    "pagina_fin": 28,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "COLORES",
+    "recomendacion": "Asegúrese de que el contraste es suficiente.",
+    "ejemplo": "Use una calculadora de contraste."
+  },
+  {
+    "id": 137,
+    "pagina_inicio": 28,
+    "pagina_fin": 28,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "COLORES",
+    "recomendacion": "Evite contrastes de tipo verde-rojo.",
+    "ejemplo": null
+  },
+  {
+    "id": 138,
+    "pagina_inicio": 28,
+    "pagina_fin": 29,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "FUENTE",
+    "recomendacion": "Por lo general, las fuentes sin serifa como Arial, Calibri, Cambria, OpenDyslexic y Verdana son más fáciles de leer gracias a sus líneas limpias y a la ausencia de elementos decorativos. Además, son de dominio público. Use un tamaño de fuente de entre 12 y 16 puntos. El estándar son 14 puntos, pero el tamaño óptimo puede variar dependiendo del tipo de fuente.",
+    "ejemplo": null
+  },
+  {
+    "id": 139,
+    "pagina_inicio": 29,
+    "pagina_fin": 29,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ESTILO DE FUENTE",
+    "recomendacion": "No use cursivas, subrayados, sombras, contornos o efectos en relieve. Use la negrita solo para resaltar palabras importantes o explicadas en las glosas y el glosario. En lenguas que usan mayúsculas y minúsculas, no escriba todo el texto en mayúscula. Limite su uso al principio de un párrafo, en los títulos, tras un punto o en nombres propio.",
+    "ejemplo": null
+  },
+  {
+    "id": 140,
+    "pagina_inicio": 29,
+    "pagina_fin": 29,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ALINEACIÓN",
+    "recomendacion": "Use la justificación izquierda para alfabetos latinos y la completa para lenguas con caracteres.",
+    "ejemplo": null
+  },
+  {
+    "id": 141,
+    "pagina_inicio": 29,
+    "pagina_fin": 29,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "GUIONES",
+    "recomendacion": "No segmente las palabras, escríbalas enteras en una línea. Evite los guiones al final de las líneas.",
+    "ejemplo": "«Este es un ejemplo de palabras completas en una línea»."
+  },
+  {
+    "id": 142,
+    "pagina_inicio": 29,
+    "pagina_fin": 29,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ESPACIADO",
+    "recomendacion": "Use un espaciado mínimo de 1,5, adaptado al tamaño de la fuente y al medio de visualización.",
+    "ejemplo": null
+  },
+  {
+    "id": 143,
+    "pagina_inicio": 29,
+    "pagina_fin": 29,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "NUMERACIÓN",
+    "recomendacion": "Numere las páginas del texto con un tamaño de fuente mayor que el del cuerpo.",
+    "ejemplo": null
+  },
+  {
+    "id": 144,
+    "pagina_inicio": 29,
+    "pagina_fin": 29,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ESTRUCTURA",
+    "recomendacion": "Cree una estructura visualmente clara. Por ejemplo, use títulos o niveles jerárquicos, párrafos y espacios o viñetas.",
+    "ejemplo": null
+  },
+  {
+    "id": 145,
+    "pagina_inicio": 29,
+    "pagina_fin": 29,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "TÍTULOS",
+    "recomendacion": "Incluya al menos un título por página hasta un máximo de tres niveles jerárquicos.",
+    "ejemplo": null
+  },
+  {
+    "id": 146,
+    "pagina_inicio": 30,
+    "pagina_fin": 30,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "IMÁGENES",
+    "recomendacion": "Use imágenes (fotos, dibujos, ilustraciones) solo si ayudan o complementan la comprensión del texto.",
+    "ejemplo": null
+  },
+  {
+    "id": 147,
+    "pagina_inicio": 30,
+    "pagina_fin": 30,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "IMÁGENES",
+    "recomendacion": "Coloque las imágenes cerca del texto correspondiente, en un lugar donde no afecten a la legibilidad. Colóquelas en el margen o sobre el bloque de texto.",
+    "ejemplo": null
+  },
+  {
+    "id": 148,
+    "pagina_inicio": 30,
+    "pagina_fin": 30,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "IMÁGENES",
+    "recomendacion": "Represente siempre el mismo concepto con la misma imagen.",
+    "ejemplo": null
+  },
+  {
+    "id": 149,
+    "pagina_inicio": 30,
+    "pagina_fin": 30,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "IMÁGENES",
+    "recomendacion": "Use imágenes de alta resolución y a color siempre que sea posible.",
+    "ejemplo": null
+  },
+  {
+    "id": 150,
+    "pagina_inicio": 30,
+    "pagina_fin": 30,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "IMÁGENES",
+    "recomendacion": "Incluya un texto alternativo para las imágenes en contenidos digitales.",
+    "ejemplo": "Instrucciones para añadir texto alternativo: LINK"
+  },
+  {
+    "id": 151,
+    "pagina_inicio": 32,
+    "pagina_fin": 32,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "SOPORTE",
+    "recomendacion": "Los estudiantes deben tener acceso a los pictogramas en un material adecuado y adaptable digitalmente.",
+    "ejemplo": "1. Algunos usuarios señalan un material. Este puede ser de papel, plástico o tener un soporte digital. Si los usuarios acceden a través de su visión, necesitan un soporte digital. Algunos usuarios con discapacidad motora también pueden necesitar soporte digital. 2. Si se utiliza soporte digital, algunos usuarios pueden necesitar material adicional para disminuir el brillo de sus pantallas. A la hora de adaptar los contenidos, deben tenerse en cuenta las distintas posibilidades de material. 3. Algunos usuarios pueden necesitar tipos de papel o cartón más resistentes."
+  },
+  {
+    "id": 152,
+    "pagina_inicio": 32,
+    "pagina_fin": 32,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ACCESO",
+    "recomendacion": "Los estudiantes deben tener acceso físico para señalar y seleccionar pictogramas con facilidad.",
+    "ejemplo": null
+  },
+  {
+    "id": 153,
+    "pagina_inicio": 32,
+    "pagina_fin": 32,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "SISTEMAS PICTOGRÁFICOS",
+    "recomendacion": "Existen varios sistemas pictográficos, que difieren entre sí por su diseño gráfico. Elija pictogramas que no difieran mucho entre sí. Sobre todo, procure que no sean contradictorios.",
+    "ejemplo": "Pictogramas de la palabra «más» en distintos sistemas:"
+  },
+  {
+    "id": 154,
+    "pagina_inicio": 32,
+    "pagina_fin": 32,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "FUENTES",
+    "recomendacion": "Los pictogramas de libre acceso pueden ser pictogramas para comunicación aumentativa y alternativa (CAA) o pictogramas para ilustraciones gráficas.",
+    "ejemplo": null
+  },
+  {
+    "id": 155,
+    "pagina_inicio": 33,
+    "pagina_fin": 33,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "BANCOS DE IMÁGENES DE LIBRE ACCESO",
+    "recomendacion": "Busque en bancos de imágenes de libre acceso. Son otro recurso útil para los REA.",
+    "ejemplo": "1. Coco Material https://cocomaterial.com/ 2. Mulberry Symbols https://mulberrysymbols.org/ 3. Open Moji https://globalsymbols.com/symbolsets/openmoji?locale=en 1. Stellar Symbols https://globalsymbols.com/symbolsets/stellar-symbols?locale=en&page=8"
+  },
+  {
+    "id": 156,
+    "pagina_inicio": 33,
+    "pagina_fin": 33,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "TAMAÑO",
+    "recomendacion": "El tamaño de los pictogramas debe adecuarse al medio de acceso utilizado por el estudiante.",
+    "ejemplo": null
+  },
+  {
+    "id": 157,
+    "pagina_inicio": 33,
+    "pagina_fin": 33,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "CONTRASTE",
+    "recomendacion": "Los pictogramas deben tener un alto contraste para los estudiantes con discapacidad visual. Los pictogramas para estudiantes con daño cortical visual deben utilizar los colores rojo, amarillo, negro y blanco.",
+    "ejemplo": "[Image of book]"
+  },
+  {
+    "id": 158,
+    "pagina_inicio": 33,
+    "pagina_fin": 33,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "FONDO",
+    "recomendacion": "Los pictogramas suelen tener un fondo blanco. En el caso de los usuarios de CAA, los pictogramas pueden tener un fondo de color dependiendo de la clase gramatical de la palabra representada.",
+    "ejemplo": null
+  },
+  {
+    "id": 159,
+    "pagina_inicio": 33,
+    "pagina_fin": 33,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "TEXTO",
+    "recomendacion": "Algunos pictogramas pueden ser difíciles de adivinar si no muestran su etiqueta o título. Los pictogramas deben tener una leyenda o transcripción encima o debajo de la imagen en la lengua materna del estudiante.",
+    "ejemplo": "[Image of answer]"
+  },
+  {
+    "id": 160,
+    "pagina_inicio": 34,
+    "pagina_fin": 34,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "TEXTO BILINGÜE",
+    "recomendacion": "En el caso de contextos bilingües, puede colocarse un texto arriba y otro abajo.",
+    "ejemplo": "[Image of shy]"
+  },
+  {
+    "id": 161,
+    "pagina_inicio": 34,
+    "pagina_fin": 34,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "COHERENCIA",
+    "recomendacion": "Utilice los mismos pictogramas en todo el recurso, es decir, no cambie el tipo de pictograma que ha utilizado para el mismo concepto en todo el recurso.",
+    "ejemplo": null
+  },
+  {
+    "id": 162,
+    "pagina_inicio": 34,
+    "pagina_fin": 34,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "AMBIGÜEDAD",
+    "recomendacion": "Explique al estudiante que muchos conceptos pueden representarse con el mismo pictograma y viceversa.",
+    "ejemplo": "Ejemplo del mismo pictograma para las palabras ganar, el primero, ganador, premio."
+  },
+  {
+    "id": 163,
+    "pagina_inicio": 34,
+    "pagina_fin": 34,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "ABSTRACCIÓN",
+    "recomendacion": "Evite los pictogramas demasiado abstractos. Es difícil interpretar su significado.",
+    "ejemplo": "[Image of future]"
+  },
+  {
+    "id": 164,
+    "pagina_inicio": 35,
+    "pagina_fin": 35,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "DETALLES",
+    "recomendacion": "Procure utilizar siempre pictogramas que se ajusten a la complejidad de lo que representan.",
+    "ejemplo": "[Image of speech language therapist]"
+  },
+  {
+    "id": 165,
+    "pagina_inicio": 35,
+    "pagina_fin": 35,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "VARIEDAD",
+    "recomendacion": "Las ilustraciones son útiles para contenidos científicos complejos. Las escenas visuales proporcionan un contexto útil para narrar historias, procesos o hechos.",
+    "ejemplo": "[Image of party]"
+  },
+  {
+    "id": 166,
+    "pagina_inicio": 35,
+    "pagina_fin": 35,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "DIDÁCTICAS",
+    "recomendacion": "Los pictogramas deben representar conceptos que el estudiante entienda o pueda entender (zona de desarrollo próximo).",
+    "ejemplo": null
+  },
+  {
+    "id": 167,
+    "pagina_inicio": 35,
+    "pagina_fin": 35,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "EDAD DE LOS USUARIOS",
+    "recomendacion": "Los pictogramas deben ser adecuados a la edad del estudiante.",
+    "ejemplo": "Pictogramas de la palabra mujer para estudiantes adultos y jóvenes:"
+  },
+  {
+    "id": 168,
+    "pagina_inicio": 36,
+    "pagina_fin": 36,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "NIVEL DE ALFABETIZACIÓN",
+    "recomendacion": "Utilice pictogramas adecuados al nivel de alfabetización del estudiante.",
+    "ejemplo": null
+  },
+  {
+    "id": 169,
+    "pagina_inicio": 36,
+    "pagina_fin": 36,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ACog",
+      "nombre": "Accesibilidad cognitiva"
+    },
+    "categoria": "AUTONOMÍA PERSONAL",
+    "recomendacion": "Los pictogramas pueden ayudar a fomentar la autonomía personal en la realización de tareas relacionadas con el recurso educativo. Ejemplo de buenas prácticas: - pictogramas para dar instrucciones, - pictogramas para orientarse en el recurso educativo, - pictogramas para distribuir la información en el espacio, y - pictogramas para estructurar el tipo de actividades.",
+    "ejemplo": "Pictogramas para dar instrucciones:"
+  },
+  {
+    "id": 170,
+    "pagina_inicio": 38,
+    "pagina_fin": 38,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "RECURSO",
+    "recomendacion": "Indique qué tipo de recurso se describe, como fotografías, dibujos, ilustraciones, diagramas, diapositivas o mapas.",
+    "ejemplo": null
+  },
+  {
+    "id": 171,
+    "pagina_inicio": 38,
+    "pagina_fin": 38,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "DESCRIPCIÓN DE IMÁGENES",
+    "recomendacion": "Describa la información visual más representativa para que el oyente pueda comprender la imagen descrita. Proporcione detalles aclarando el “cuándo”, “dónde”, “quién”, “qué” y “cómo” de la imagen.",
+    "ejemplo": null
+  },
+  {
+    "id": 172,
+    "pagina_inicio": 38,
+    "pagina_fin": 38,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "DESCRIPCIÓN DE PERSONAJES",
+    "recomendacion": "Describa la información adicional con detalles vívidos.",
+    "ejemplo": null
+  },
+  {
+    "id": 173,
+    "pagina_inicio": 38,
+    "pagina_fin": 38,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "ORDEN",
+    "recomendacion": "Proporcione información sobre los colores y tonos cromáticos de la imagen, si procede.",
+    "ejemplo": null
+  },
+  {
+    "id": 174,
+    "pagina_inicio": 38,
+    "pagina_fin": 38,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "TEXTO ESCRITO Y SÍMBOLOS",
+    "recomendacion": "Cuando describa personas, incluya actitudes y estados emocionales claramente reconocibles si contribuyen a la comprensión de la imagen.",
+    "ejemplo": "“El niño de la izquierda parece estar triste”."
+  },
+  {
+    "id": 175,
+    "pagina_inicio": 38,
+    "pagina_fin": 38,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "NEUTRALIDAD",
+    "recomendacion": "Describa los elementos visuales siguiendo un orden concreto: de arriba abajo y de izquierda a derecha, si la imagen lo permite.",
+    "ejemplo": null
+  },
+  {
+    "id": 176,
+    "pagina_inicio": 38,
+    "pagina_fin": 38,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "INCLUSIÓN DE SONIDOS",
+    "recomendacion": "Si la imagen contiene texto o símbolos, léalos o descríbalos.",
+    "ejemplo": null
+  },
+  {
+    "id": 177,
+    "pagina_inicio": 38,
+    "pagina_fin": 38,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "REVISIÓN DE CALIDAD",
+    "recomendacion": "Pida a alguien con experiencia que revise y corrija el guion de audiodescripción para garantizar la calidad. Esta persona revisora podría ser una persona con discapacidad visual.",
+    "ejemplo": null
+  },
+  {
+    "id": 178,
+    "pagina_inicio": 39,
+    "pagina_fin": 39,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "VOCABULARIO APROPIADO A LA EDAD",
+    "recomendacion": "Adapte el vocabulario a la edad y al nivel de comprensión del alumnado.",
+    "ejemplo": "En lugar de “El niño recupera el libro de la estantería”, puede decir “El niño coge el libro de la estantería”."
+  },
+  {
+    "id": 179,
+    "pagina_inicio": 39,
+    "pagina_fin": 39,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "VARIAR EL VOCABULARIO",
+    "recomendacion": "Utilice un vocabulario rico en sinónimos para evitar repeticiones, siempre que no cause confusión. El vocabulario debe ser adecuado al tipo de imagen y al público infantil. Sin embargo, mantenga siempre un lenguaje sencillo.",
+    "ejemplo": null
+  },
+  {
+    "id": 180,
+    "pagina_inicio": 39,
+    "pagina_fin": 39,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "NUEVOS CONCEPTOS Y TÉRMINOS",
+    "recomendacion": "Si utiliza o introduce conceptos o palabras desconocidas, explíquelas de forma sencilla y contextualizada.",
+    "ejemplo": "“El profesor señala el ‘volcán’, una gran montaña por la que pueden salir lava y humo”."
+  },
+  {
+    "id": 181,
+    "pagina_inicio": 39,
+    "pagina_fin": 39,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "VOCABULARIO ESPECÍFICO",
+    "recomendacion": "Evite el uso de vocabulario complejo o conceptos abstractos no adecuados a la edad del alumnado. Utilice palabras concretas para designar objetos y acciones, evitando descripciones vagas o lenguaje figurado.",
+    "ejemplo": "Evite expresiones como “volar hacia el abismo” o “comerse el mundo”."
+  },
+  {
+    "id": 182,
+    "pagina_inicio": 39,
+    "pagina_fin": 39,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "ANALOGÍAS Y METÁFORAS",
+    "recomendacion": "Utilice analogías y metáforas relacionadas con la realidad y el entorno del alumnado.",
+    "ejemplo": "“La forma del edificio parece una caja de zapatos”. “El planeta es redondo como un balón de fútbol”."
+  },
+  {
+    "id": 183,
+    "pagina_inicio": 39,
+    "pagina_fin": 39,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "CONSTRUCCIÓN DE FRASES",
+    "recomendacion": "Utilice frases cortas y claras. Cada frase debe transmitir una sola idea. Evite oraciones complejas o con mucha subordinación. Utilice voz activa y verbos de acción directa.",
+    "ejemplo": "En lugar de “Dos personas con sombrero cruzan la calle con un paraguas mientras pasa mucha gente”, diga: “Dos personas con sombrero cruzan la calle con un paraguas. La calle está llena de gente”."
+  },
+  {
+    "id": 184,
+    "pagina_inicio": 39,
+    "pagina_fin": 39,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "TIEMPOS VERBALES",
+    "recomendacion": "Describa preferiblemente en tiempo presente para facilitar la comprensión.",
+    "ejemplo": null
+  },
+  {
+    "id": 185,
+    "pagina_inicio": 40,
+    "pagina_fin": 40,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "DESCRIPCIONES: ELEMENTOS VISUALES CLAVE",
+    "recomendacion": "Describe lo más importante. Aclara detalles importantes como \"cuándo\", \"dónde\", \"quién\", \"qué\" y \"cómo\" en cada escena. Céntrate en los detalles visuales relevantes para la trama o los objetivos de aprendizaje.",
+    "ejemplo": null
+  },
+  {
+    "id": 186,
+    "pagina_inicio": 40,
+    "pagina_fin": 40,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "DESCRIPCIONES: ACCIONES",
+    "recomendacion": "Explique las acciones y proporcione contexto para aquellas que son difíciles de inferir del diálogo o el sonido, como las expresiones faciales, los gestos o los colores que tienen significado para la lección.",
+    "ejemplo": "Si un profesor está sonriendo, diga: “El profesor sonríe felizmente”."
+  },
+  {
+    "id": 187,
+    "pagina_inicio": 40,
+    "pagina_fin": 40,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "TRANSICIONES ENTRE ESCENAS",
+    "recomendacion": "Los niños pueden tener dificultades con los cambios de escena si no hay contexto para la transición. Explíqueles las transiciones con claridad para evitar confusiones. Use frases sencillas como \"Ahora estamos en...\" o \"A continuación, vemos...\" para preparar a los niños para los cambios de escena o de tiempo.",
+    "ejemplo": "“Ahora estamos afuera en el patio de recreo y hace sol”."
+  },
+  {
+    "id": 188,
+    "pagina_inicio": 40,
+    "pagina_fin": 41,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "DESCRIPCIONES: EMOCIONES",
+    "recomendacion": "Incluya descripciones de emociones. Los niños pueden depender en gran medida de la comprensión de las emociones y las acciones para seguir una historia o lección. Resalte las expresiones faciales, el lenguaje corporal y las interacciones de los personajes de forma vívida pero concisa.",
+    "ejemplo": "“El niño parece emocionado, tiene los ojos muy abiertos y está sonriendo”."
+  },
+  {
+    "id": 189,
+    "pagina_inicio": 41,
+    "pagina_fin": 41,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "DESCRIPCIÓN DEL PERSONAJE",
+    "recomendacion": "Céntrate en rasgos esenciales y fáciles de visualizar, como la altura, la complexión y la edad, pero mantén un lenguaje sencillo y relevante para la historia. Menciona rasgos que ayuden a los niños a distinguir entre los personajes, como un accesorio o prenda de vestir llamativos, y omite descripciones innecesarias o demasiado detalladas.",
+    "ejemplo": "Lily es una chica alta, de la misma estatura que una adulta. Lleva una chaqueta de cuero y el pelo recogido en una coleta."
+  },
+  {
+    "id": 190,
+    "pagina_inicio": 41,
+    "pagina_fin": 41,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "NOMBRE DEL PERSONAJE",
+    "recomendacion": "Use siempre los nombres de los personajes cuando aparecen por primera vez en el cuento y menciónelos con frecuencia durante la narración para ayudar a los niños a identificar quién es quién. Repita los nombres con frecuencia, especialmente los de los personajes principales, para reforzar su identidad a lo largo del cuento.",
+    "ejemplo": "Ella es Emma. Emma es una chica aventurera de cabello largo y castaño, y lleva un abrigo verde."
+  },
+  {
+    "id": 191,
+    "pagina_inicio": 41,
+    "pagina_fin": 41,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "DESCRIPCIONES SENSORIALES",
+    "recomendacion": "Refiérase a otros sentidos. Utilice descripciones ricas y multisensoriales para estimular la imaginación del estudiante. Considere incluir sonidos, olores o texturas que no se puedan transmitir visualmente, pero que ayuden a construir una imagen mental.",
+    "ejemplo": null
+  },
+  {
+    "id": 192,
+    "pagina_inicio": 41,
+    "pagina_fin": 41,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "TEXTO Y SÍMBOLOS",
+    "recomendacion": "Si hay texto, explique que se muestra en el video y léalo en voz alta. Asegúrese de explicar los símbolos o números a medida que aparecen.",
+    "ejemplo": "“Las palabras dicen: 'El agua es importante “para todos los seres vivos”."
+  },
+  {
+    "id": 193,
+    "pagina_inicio": 41,
+    "pagina_fin": 41,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "ELEMENTOS INTERACTIVOS",
+    "recomendacion": "Incorpore elementos interactivos al AD animando a los niños a adivinar o anticipar acciones, recordar información o resolver un problema. Haga preguntas sencillas o incite al estudiante a reflexionar sobre lo que se describe.",
+    "ejemplo": "¿Puedes adivinar qué hará el conejo a continuación? ¿Puedes adivinar qué animal saldrá a continuación? “¡Recuerda, ese es el mismo pájaro que vimos antes!”"
+  },
+  {
+    "id": 194,
+    "pagina_inicio": 41,
+    "pagina_fin": 41,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "DESCRIPCIONES DIVERTIDAS Y ATRACTIVAS",
+    "recomendacion": "Infunda un toque divertido en las descripciones cuando sea apropiado para enriquecer la experiencia de aprendizaje. Use adjetivos y verbos que evoquen entusiasmo y curiosidad sin abrumar al oyente.",
+    "ejemplo": "“¡El superhéroe vuela por el cielo con una gran sonrisa!” en lugar de “El superhéroe vuela rápido”."
+  },
+  {
+    "id": 195,
+    "pagina_inicio": 42,
+    "pagina_fin": 42,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "REFUERZO POSITIVO",
+    "recomendacion": "Incluya frases motivadoras en la AD para motivar a los estudiantes, especialmente al describir contenido desafiante o desconocido. Esto hará que la experiencia de aprendizaje sea más amena y enriquecedora.",
+    "ejemplo": "¡Qué bien si recordaste la respuesta! ¡Lo estás haciendo genial!"
+  },
+  {
+    "id": 196,
+    "pagina_inicio": 42,
+    "pagina_fin": 42,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "SENSIBILIDAD CULTURAL",
+    "recomendacion": "Tenga en cuenta las referencias culturales. Asegúrese de que el AD incluya contexto para referencias culturales que puedan ser desconocidas para los niños, explicándolas de una manera accesible y comprensible para su grupo de edad.",
+    "ejemplo": "Si un personaje está realizando una danza cultural, describe qué representa la danza y por qué es importante, pero en términos simples y comprensibles."
+  },
+  {
+    "id": 197,
+    "pagina_inicio": 42,
+    "pagina_fin": 42,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "VOCABULARIO APROPIADO PARA LA EDAD",
+    "recomendacion": "Adapte el vocabulario a la edad y al nivel de comprensión de los estudiantes.",
+    "ejemplo": "En lugar de “El niño recupera el libro del estante”, podría decir: “El niño recoge el libro del estante”."
+  },
+  {
+    "id": 198,
+    "pagina_inicio": 42,
+    "pagina_fin": 42,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "VOCABULARIO ESPECÍFICO",
+    "recomendacion": "Evite el vocabulario complejo o los conceptos abstractos inadecuados para la edad de los estudiantes. Use palabras específicas para objetos y acciones, evitando descripciones vagas o lenguaje figurado.",
+    "ejemplo": "Evite, por ejemplo: “volar dentro de un rango”, o “conquistar el mundo”)."
+  },
+  {
+    "id": 199,
+    "pagina_inicio": 42,
+    "pagina_fin": 42,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "CONSTRUCCIÓN DE ORACIONES",
+    "recomendacion": "Use oraciones cortas y claras . Cada oración transmite una idea. Evite oraciones demasiado complejas y la subordinación. Use la voz activa y verbos de acción directa que sean fáciles de entender para los estudiantes.",
+    "ejemplo": null
+  },
+  {
+    "id": 200,
+    "pagina_inicio": 42,
+    "pagina_fin": 42,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "NUEVOS CONCEPTOS Y PALABRAS",
+    "recomendacion": "Si utiliza o introduce conceptos o palabras desconocidos, explíquelos de forma sencilla y dentro del contexto.",
+    "ejemplo": "“La maestra señala el ‘volcán’, una gran montaña que puede entrar en erupción con lava”."
+  },
+  {
+    "id": 201,
+    "pagina_inicio": 43,
+    "pagina_fin": 43,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "EXPLICACIONES CLARAS DE LOS CONCEPTOS CIENTÍFICOS",
+    "recomendacion": "Al introducir conceptos complejos, asegúrese de que el asistente de lectura ofrezca explicaciones claras y concisas. Proporcione analogías o comparaciones sencillas para ayudar a los niños a comprender conceptos difíciles. Desglose las explicaciones de conceptos científicos o históricos en partes más pequeñas y comprensibles para el público más joven.",
+    "ejemplo": null
+  },
+  {
+    "id": 202,
+    "pagina_inicio": 43,
+    "pagina_fin": 43,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "AJUSTES DE RITMO Y TIEMPO",
+    "recomendacion": "Asegúrese de que el ritmo sea adecuado. Proporcione pausas más largas para los alumnos más pequeños. Ajuste el ritmo para mejorar la comprensión.",
+    "ejemplo": "“La niña abraza al perro”, en lugar de “La niña rápidamente se inclina y abraza fuertemente a su perro”."
+  },
+  {
+    "id": 203,
+    "pagina_inicio": 43,
+    "pagina_fin": 43,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "TONO Y VOZ",
+    "recomendacion": "Adopte un tono cálido y amigable, adecuado al contenido. La voz del narrador debe ser atractiva, cálida y expresiva para mantener la atención del niño.",
+    "ejemplo": null
+  },
+  {
+    "id": 204,
+    "pagina_inicio": 43,
+    "pagina_fin": 43,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "PUBLICIDAD CON SOFTWARE DE IA",
+    "recomendacion": "Utilice una voz humana con un tono expresivo.",
+    "ejemplo": null
+  },
+  {
+    "id": 205,
+    "pagina_inicio": 43,
+    "pagina_fin": 43,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "NARRADOR PROFESIONAL",
+    "recomendacion": "Si es posible, contacte con un narrador profesional.",
+    "ejemplo": null
+  },
+  {
+    "id": 206,
+    "pagina_inicio": 43,
+    "pagina_fin": 43,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "ADAPTAR LAS DESCRIPCIONES A LAS ETAPAS DE DESARROLLO",
+    "recomendacion": "Utilice descripciones más sencillas para niños pequeños (p. ej., de 3 a 6 años) y añada progresivamente más detalles para los mayores. Para los niños más pequeños, céntrese más en la acción, mientras que los mayores podrían necesitar explicaciones más detalladas del contexto y las imágenes.",
+    "ejemplo": null
+  },
+  {
+    "id": 207,
+    "pagina_inicio": 44,
+    "pagina_fin": 44,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "ADAPTAR LAS DESCRIPCIONES A LAS CAPACIDADES COGNITIVAS",
+    "recomendacion": "Tenga en cuenta la comprensión del lenguaje y las capacidades cognitivas: los niños pueden tener una variedad de capacidades más allá de las discapacidades visuales, como discapacidades de aprendizaje o intelectuales.",
+    "ejemplo": null
+  },
+  {
+    "id": 208,
+    "pagina_inicio": 44,
+    "pagina_fin": 44,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "EMPRENDER OTROS SENTIDOS",
+    "recomendacion": "Siempre que sea posible, añada señales táctiles o cinestésicas junto con la AD (p. ej., en entornos educativos presenciales o con herramientas de aprendizaje físico). Por ejemplo, combinar la AD con objetos táctiles relacionados con el video puede mejorar el aprendizaje de niños con discapacidades múltiples.",
+    "ejemplo": "Si el video es sobre un tipo de flor, proporciónele una al estudiante para que la explore usando otros sentidos."
+  },
+  {
+    "id": 209,
+    "pagina_inicio": 44,
+    "pagina_fin": 44,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADV",
+      "nombre": "Accesibilidad para el alumnado con discapacidad visual"
+    },
+    "categoria": "PERSONALIZACIÓN Y ADAPTABILIDAD",
+    "recomendacion": "Prepárese para adaptar la AD según la retroalimentación de los niños, educadores o cuidadores. Lo que funciona para un grupo de niños puede requerir ajustes para otros. Incorpore flexibilidad para adaptar las descripciones según las necesidades de desarrollo de los niños con diferentes discapacidades visuales.",
+    "ejemplo": null
+  },
+  {
+    "id": 210,
+    "pagina_inicio": 45,
+    "pagina_fin": 45,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "Nivel 1",
+    "recomendacion": "Utilice una herramienta automática de subtitulado (CC).",
+    "ejemplo": "YouTube Studio: https://studio.youtube.com"
+  },
+  {
+    "id": 211,
+    "pagina_inicio": 45,
+    "pagina_fin": 45,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "Nivel 2",
+    "recomendacion": "Utilice software gratuito para crear subtítulos de forma manual. Estas herramientas permiten ajustar los tiempos y añadir detalles importantes, como efectos sonoros o identificación de interlocutores, para mejorar la accesibilidad.",
+    "ejemplo": "Aegisub: https://aegisub.org/ Subtitle Edit: https://www.nikse.dk/subtitleedit"
+  },
+  {
+    "id": 212,
+    "pagina_inicio": 45,
+    "pagina_fin": 45,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "Nivel 3",
+    "recomendacion": "Utilice software de pago para crear subtítulos profesionales. Estas herramientas ofrecen funciones avanzadas, como códigos de tiempo precisos, identificación de voces y opciones de personalización para garantizar la calidad y la accesibilidad de los subtítulos.",
+    "ejemplo": "EZtitles: https://www.eztitles.com/ Ooona: https://www.ooona.net/ooona-tools/"
+  },
+  {
+    "id": 213,
+    "pagina_inicio": 46,
+    "pagina_fin": 46,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "COLORES",
+    "recomendacion": "Si utiliza colores en los subtítulos, asegúrese de que contrasten con el fondo del vídeo para evitar la fatiga visual. Para comprobarlo, puede consultar, por ejemplo, Colour Contrast Analyser (https://www.tpgi.com/color-contrast-checker/)",
+    "ejemplo": "Ejemplo: texto amarillo sobre fondo negro. Amarillo sobre fondo negro Si el color del texto coincide con el fondo, puede enmarcar el subtítulo en un recuadro de color para garantizar el contraste. Blanco sobre fondo negro"
+  },
+  {
+    "id": 214,
+    "pagina_inicio": 46,
+    "pagina_fin": 46,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "FUENTE",
+    "recomendacion": "Elija la fuente con la mayor legibilidad posible.",
+    "ejemplo": "Ejemplo de fuentes legibles: Arial o Calibri. Calibri es una fuente legible Arial es una fuente legible"
+  },
+  {
+    "id": 215,
+    "pagina_inicio": 46,
+    "pagina_fin": 46,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "ENTRADA Y SALIDA DE LOS SUBTITULOS",
+    "recomendacion": "El momento en que aparece y desaparece un subtítulo debe coincidir con el movimiento de los labios de los personajes y con la información sonora correspondiente.",
+    "ejemplo": null
+  },
+  {
+    "id": 216,
+    "pagina_inicio": 46,
+    "pagina_fin": 46,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "DURACIÓN",
+    "recomendacion": "El subtítulo debe permanecer en pantalla el tiempo suficiente para que pueda leerse sin dificultad. La velocidad máxima recomendada es de 12 caracteres por segundo.",
+    "ejemplo": null
+  },
+  {
+    "id": 217,
+    "pagina_inicio": 46,
+    "pagina_fin": 46,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "LONGITUD",
+    "recomendacion": "Los subtítulos deben ocupar dos líneas y, de forma excepcional, tres.",
+    "ejemplo": "Los subtítulos deben ocupar dos líneas y, de forma excepcional, tres."
+  },
+  {
+    "id": 218,
+    "pagina_inicio": 46,
+    "pagina_fin": 46,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "SEGMENTACIÓN EN LÍNEAS",
+    "recomendacion": "Al dividir un subtítulo: - Aproveche las pausas naturales del habla y los silencios; - Aproveche las pausas gramaticales o signos de puntuación; - Coloque las conjunciones y nexos en la línea inferior. No deben separarse en líneas diferentes: sílabas de una misma palabra, sintagmas nominales, verbales o preposicionales.",
+    "ejemplo": null
+  },
+  {
+    "id": 219,
+    "pagina_inicio": 47,
+    "pagina_fin": 47,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "NÚMERO DE CARACTERES",
+    "recomendacion": "El número máximo de caracteres por línea debe situarse entre 37 y 42 para un público adulto. Tenga en cuenta que el público infantil y joven lee más despacio, por lo que conviene reducir esa cifra para facilitar la lectura. Es fundamental que su alumnado pueda leer los subtítulos en pantalla.",
+    "ejemplo": null
+  },
+  {
+    "id": 220,
+    "pagina_inicio": 47,
+    "pagina_fin": 47,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "POSICIÓN",
+    "recomendacion": "Los subtítulos deben aparecer en la parte inferior de la pantalla. Si tapan información relevante, puede desplazar el recuadro de subtitulado.",
+    "ejemplo": null
+  },
+  {
+    "id": 221,
+    "pagina_inicio": 47,
+    "pagina_fin": 47,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "ORTOGRAFÍA Y GRAMÁTICA",
+    "recomendacion": "Los subtítulos deben estar escritos correctamente. Las incorrecciones del habla deben corregirse, salvo si son relevantes para la trama, en cuyo caso se indicarán entre comillas.",
+    "ejemplo": "Texto hablado original (de un dialecto o con un acento): Me se ha olvidao. Subtítulo corregido (si la pronunciación no es relevante para la trama): Se me ha olvidado. Subtítulo con una incorreción: ‘Me se’ ha olvidado."
+  },
+  {
+    "id": 222,
+    "pagina_inicio": 47,
+    "pagina_fin": 47,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "CIFRAS Y SÍMBOLOS",
+    "recomendacion": "Los números naturales del cero al diez (incluido) deben escribirse con letra, salvo que vayan acompañados de abreviaturas, signos o símbolos.",
+    "ejemplo": "Diez ovejas 10 €"
+  },
+  {
+    "id": 223,
+    "pagina_inicio": 47,
+    "pagina_fin": 47,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "LITERALIDAD",
+    "recomendacion": "Los subtítulos deben ser lo más literales posible.",
+    "ejemplo": null
+  },
+  {
+    "id": 224,
+    "pagina_inicio": 47,
+    "pagina_fin": 47,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "RESUMEN",
+    "recomendacion": "Si es necesario reducir o eliminar información del diálogo, priorice suprimir la parte menos relevante. También puede condensar el contenido en la medida de lo posible.",
+    "ejemplo": null
+  },
+  {
+    "id": 225,
+    "pagina_inicio": 48,
+    "pagina_fin": 48,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "IDENTIFICACIÓN DE LOS PERSONAJES",
+    "recomendacion": "Se deben identificar las voces de los distintos personajes. Puede usar un color distinto para cada interlocutor o indicar el nombre entre paréntesis y en mayúsculas.",
+    "ejemplo": "- ¡Hola! - ¡Hola! - [MARÍA] ¡Hola! - [JORGE] ¡Hola!"
+  },
+  {
+    "id": 226,
+    "pagina_inicio": 48,
+    "pagina_fin": 48,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "DIÁLOGOS",
+    "recomendacion": "En los diálogos, cada intervención debe comenzar en una nueva línea. Puede usar guiones para distinguir las intervenciones.",
+    "ejemplo": "- Personaje 1 - Personaje 2"
+  },
+  {
+    "id": 227,
+    "pagina_inicio": 48,
+    "pagina_fin": 48,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "VOCES EN OFF",
+    "recomendacion": "Las voces en off (aquellas que emiten los personajes que no están en pantalla) deben subtitularse. Se deben indicar con la etiqueta [voz en off] o con la cursiva.",
+    "ejemplo": "[voz en off] Puede usar esta etiqueta. [voz en off] Puede usar esta etiqueta. También puede indicarlo en cursiva"
+  },
+  {
+    "id": 228,
+    "pagina_inicio": 48,
+    "pagina_fin": 48,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "INFORMACIÓN CONTEXTUAL",
+    "recomendacion": "Se debe incluir la información contextual entre paréntesis y en mayúscula o entre corchetes y en minúscula, antes del texto al que se refieren y en la misma línea.",
+    "ejemplo": "Algunos ejemplos de información contextual: (GRITOS), (CON SARCASMO), (ACENTO FRANCÉS), (AMBOS), (TODOS) o [gritos], [con sarcasmo], [acento francés], [ambos], [todos]. - ¡Buenos días! - (TODOS) ¡Buenos días! - ¡Buenos días! - [todos] ¡Buenos días!"
+  },
+  {
+    "id": 229,
+    "pagina_inicio": 48,
+    "pagina_fin": 48,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "EFECTOS DE SONIDO Y MÚSICA",
+    "recomendacion": "Se deben indicar los sonidos cuando sean relevantes para la comprensión de la trama (por ejemplo: la música, los ruidos de fondo, los sonidos de animales u objetos). Esta información se escribe entre paréntesis o corchetes, con la primera letra en mayúscula y el resto en minúscula para diferenciarlo del resto del diálogo.",
+    "ejemplo": "Ejemplo: (Timbre) o [Timbre]."
+  },
+  {
+    "id": 230,
+    "pagina_inicio": 49,
+    "pagina_fin": 49,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "ELECCIÓN DEL LENGUAJE",
+    "recomendacion": "Elija la lengua de signos principal de su público objetivo. Si existen varios grupos destinatarios, considere la posibilidad de usar más de una o incluir signos internacionales. Informe claramente en qué lengua de signos se ofrece el contenido.",
+    "ejemplo": "Si su alumnado con discapacidad auditiva procede de distintos países, puede utilizar signos internacionales para transmitir la información. Si el contenido está en Lengua de Signos Británica, indíquelo expresamente."
+  },
+  {
+    "id": 231,
+    "pagina_inicio": 49,
+    "pagina_fin": 49,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "ELECCIÓN DEL LENGUAJE",
+    "recomendacion": "Añada subtítulos de acuerdo con las preferencias de su alumnado, en la lengua principal del vídeo o traducidos en su lengua nativa y sincronizados con la interpretación a lengua de signos.",
+    "ejemplo": "Para una charla sobre las obras de Shakespeare, añada los subtítulos en la parte inferior de la pantalla a la vez que la interpretación en lengua de signos, de manera que puedan reflejar el contenido oral."
+  },
+  {
+    "id": 232,
+    "pagina_inicio": 50,
+    "pagina_fin": 50,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "CONTENIDO E INTERPRETACIÓN",
+    "recomendacion": "Proporcione una versión en lengua de signos del texto o de la descripción auditiva para transmitir la información clave, las ideas y los procesos.",
+    "ejemplo": "En un documental sobre el cambio climático, incluya una interpretación detallada en lengua de signos que explique visualmente los conceptos y datos más importantes."
+  },
+  {
+    "id": 233,
+    "pagina_inicio": 50,
+    "pagina_fin": 50,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "ADAPTACIÓN",
+    "recomendacion": "Si el texto original no está adaptado al público destinatario, ofrezca una versión en lengua de signos adaptada.",
+    "ejemplo": "Si el texto original emplea vocabulario especializado sobre enfermedades neurológicas, la versión signada puede usar un lenguaje más sencillo y explicaciones visuales para clarificar los conceptos complejos."
+  },
+  {
+    "id": 234,
+    "pagina_inicio": 50,
+    "pagina_fin": 50,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "TRADUCCIÓN",
+    "recomendacion": "Considere contratar a una persona con discapacidad auditiva como traductora o revisora.",
+    "ejemplo": "Emplee una persona con discapacidad auditiva para supervisar la traducción de textos históricos a lengua de signos, garantizando que los matices culturales e históricos se transmitan adecuadamente."
+  },
+  {
+    "id": 235,
+    "pagina_inicio": 50,
+    "pagina_fin": 50,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "CONTENIDO E INTERPRETACIÓN",
+    "recomendacion": "Colabore con la comunidad sorda en la creación conjunta de los contenidos.",
+    "ejemplo": "Trabaje con docentes y estudiantes con discapacidad auditiva para diseñar un módulo curricular en lengua de signos, asegurando que el contenido sea culturalmente adecuado y pedagógicamente eficaz."
+  },
+  {
+    "id": 236,
+    "pagina_inicio": 50,
+    "pagina_fin": 50,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "CONTENIDO E INTERPRETACIÓN",
+    "recomendacion": "Realice pruebas de usuario con alumnado que utilice lengua de signos para evaluar el material.",
+    "ejemplo": "Invite a un grupo de estudiantes usuarios de lengua de signos a revisar los nuevos materiales educativos y aportar comentarios sobre la claridad de la interpretación, la eficacia de los subtítulos y la accesibilidad general del contenido."
+  },
+  {
+    "id": 237,
+    "pagina_inicio": 50,
+    "pagina_fin": 50,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "TIEMPOS",
+    "recomendacion": "Sincronización: sincronice la interpretación en lengua de signos con el audio.",
+    "ejemplo": "Asegúrese de que la interpretación en lengua de signos coincida exactamente con los segmentos de audio correspondientes para facilitar una comprensión coherente."
+  },
+  {
+    "id": 238,
+    "pagina_inicio": 51,
+    "pagina_fin": 51,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "SINCRONIZACIÓN",
+    "recomendacion": "Dactilología: cuando se utilice el deletreo con los dedos, sincronice el subtítulo de la palabra deletreada con el video de lengua de signos.",
+    "ejemplo": "Cuando la persona intérprete deletree términos técnicos como “ADN”, los subtítulos correspondientes deben aparecer al mismo tiempo en pantalla para facilitar la comprensión."
+  },
+  {
+    "id": 239,
+    "pagina_inicio": 51,
+    "pagina_fin": 51,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "POSICIÓN EN LA PANTALLA",
+    "recomendacion": "Posición en pantalla: el video de la persona intérprete debe mostrarse de forma clara y disponible en formato de pantalla completa.",
+    "ejemplo": "Permita al usuario ampliar el video de la persona intérprete a pantalla completa, facilitando la atención al mensaje signado."
+  },
+  {
+    "id": 240,
+    "pagina_inicio": 51,
+    "pagina_fin": 51,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "POSICIÓN EN LA PANTALLA",
+    "recomendacion": "Ofrezca un video sincronizado de la interpretación en lengua de signos que pueda mostrarse en una ventana distinta o superpuesta en el reproductor.",
+    "ejemplo": "Proporcione una función de “imagen dentro de imagen” (picture-in-picture) que muestre a la persona intérprete en una ventana pequeña sobre el video principal, que pueda moverse y redimensionarse según la preferencia del espectador."
+  },
+  {
+    "id": 241,
+    "pagina_inicio": 51,
+    "pagina_fin": 51,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "POSICIÓN EN LA PANTALLA",
+    "recomendacion": "Si se incluyen elementos visuales como títulos o subtítulos, considere la ubicación de la persona intérprete en la pantalla.",
+    "ejemplo": "Coloque a la persona intérprete en la esquina inferior derecha durante una presentación de PowerPoint, evitando que oculte el texto o los datos gráficos."
+  },
+  {
+    "id": 242,
+    "pagina_inicio": 51,
+    "pagina_fin": 51,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "FONDO",
+    "recomendacion": "Fondo: si se utiliza un croma o fondo transparente, asegúrese de que haya suficiente contraste.",
+    "ejemplo": "Si se emplea un fondo verde tras la persona intérprete, elija un color de fondo que contraste adecuadamente con su vestimenta y con el espacio de signado, como azul o gris tenue."
+  },
+  {
+    "id": 243,
+    "pagina_inicio": 51,
+    "pagina_fin": 51,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "VESTIMENTA DEL INTÉRPRETE",
+    "recomendacion": "Vestimenta: la ropa de la persona intérprete debe contrastar claramente con su tono de piel, ser de color y textura uniforme, sin elementos que distraigan.",
+    "ejemplo": "Una intérprete de piel clara puede usar ropa oscura, lisa y sin estampados llamativos."
+  },
+  {
+    "id": 244,
+    "pagina_inicio": 51,
+    "pagina_fin": 51,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "ESCENARIO",
+    "recomendacion": "Iluminación: asegúrese de que el rostro y el cuerpo de la persona intérprete estén bien iluminados, evitando sombras o reflejos.",
+    "ejemplo": "Organice la iluminación para que las manos y el rostro estén bien visibles, sin brillos ni sombras."
+  },
+  {
+    "id": 245,
+    "pagina_inicio": 51,
+    "pagina_fin": 51,
+    "dimension": {
+      "id": "AC",
+      "nombre": "Accesibilidad"
+    },
+    "subdimension": {
+      "id": "ADA",
+      "nombre": "Accesibilidad para el alumnado con discapacidad auditiva"
+    },
+    "categoria": "ENCUADRE DEL INTÉRPRETE",
+    "recomendacion": "Encuadre: utilice un plano medio o medio-largo.",
+    "ejemplo": "Grabe al intérprete desde la cintura hacia arriba, mostrando claramente los movimientos de las manos, las expresiones faciales y el lenguaje corporal superior que forman parte del mensaje signado."
+  }
+]
