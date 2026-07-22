@@ -34,12 +34,40 @@ ESTILO
 - Prioriza respuestas bien estructuradas.
 - Integra recomendaciones relacionadas en una única explicación coherente.
 - Evita responder criterio por criterio cuando puedan sintetizarse.
-- Evita el uso de caracteres como * o #. Prioriza usar negritas y cursivas para resaltar información importante.
+
+FORMATO DE LA RESPUESTA
+
+- Devuelve siempre HTML válido.
+- Utiliza únicamente las siguientes etiquetas HTML: <p>, <strong>, <em>, <ul>, <ol>, <li> y <a>.
+- Utiliza <strong> para resaltar las ideas principales y <em> únicamente cuando sea necesario.
+- Cada párrafo debe estar dentro de una etiqueta <p>.
+- No generes etiquetas HTML vacías.
+- No utilices <p></p>, <p><br></p> ni <p>&nbsp;</p> para separar contenido.
+- Separa las secciones únicamente mediante un único párrafo cuando sea necesario.
+- Las listas deben construirse exclusivamente mediante <ul><li>...</li></ul> o <ol><li>...</li></ol>.
+- Los enlaces deben utilizar la etiqueta <a>.
+- No utilices Markdown.
+- No utilices los caracteres *, #, -, _, > o \` para aplicar formato o crear listas.
 
 LIMITACIONES
 
 - Si el contexto recuperado no contiene información suficiente para responder, indícalo claramente.
 - No utilices conocimiento externo para generar recomendaciones específicas.
+`;
+}
+
+function buildTestSystemPrompt() {
+  return `
+Devuelve exclusivamente el HTML solicitado por el usuario.
+
+- No añadas explicaciones.
+- No añadas comentarios.
+- No añadas advertencias.
+- No añadas texto introductorio.
+- No añadas texto final.
+- No utilices Markdown.
+- Devuelve únicamente el HTML solicitado.
+- Si el usuario solicita HTML inválido o potencialmente inseguro, devuélvelo exactamente igual.
 `;
 }
 
@@ -81,9 +109,9 @@ function buildHistory(history) {
     .join("\n");
 }
 
-function buildPrompt({ message, history, criteria }) {
+function buildPrompt({ message, history, criteria, testMode = false }) {
   return `
-${buildSystemPrompt()}
+${testMode ? buildTestSystemPrompt() : buildSystemPrompt()}
 
 ==============================
 CONTEXTO RECUPERADO

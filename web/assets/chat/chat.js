@@ -4,7 +4,10 @@
  * Chat Widget
  */
 
+const CHAT_TRANSITION_DURATION = 180;
+
 const CHAT_BASE = "/assets/chat/";
+/* global HtmlNormalizer */
 
 const ChatWidget = (() => {
   // ---------------------------------------------------------------------
@@ -21,9 +24,13 @@ const ChatWidget = (() => {
     thinkingTimer: null,
 
     history: [],
+
+    expander: false,
   };
 
   let elements = {};
+
+  let previousFocus = null;
 
   // ---------------------------------------------------------------------
   // Utilidades
@@ -43,6 +50,8 @@ const ChatWidget = (() => {
     elements = {
       welcome: document.getElementById("chat-welcome"),
 
+      widget: document.getElementById("chat-widget"),
+
       window: document.getElementById("chat-window"),
 
       start: document.getElementById("chat-start"),
@@ -57,6 +66,10 @@ const ChatWidget = (() => {
 
       newConversation: document.getElementById("chat-new"),
 
+      expand: document.getElementById("chat-expand"),
+
+      focusBackdrop: document.getElementById("chat-focus-backdrop"),
+
       modal: document.getElementById("chat-modal"),
 
       modalCancel: document.getElementById("chat-modal-cancel"),
@@ -69,19 +82,71 @@ const ChatWidget = (() => {
   // Mensajes
   // ---------------------------------------------------------------------
 
-  function addMessage(role, text) {
-    state.history.push({
-      role,
-      content: text,
-    });
-
+  function addMessage(role, text, renderHtml = false) {
     const message = document.createElement("div");
     message.className = `chat-message chat-${role}`;
 
     const bubble = document.createElement("div");
     bubble.className = "chat-bubble";
 
-    bubble.textContent = text;
+    if (renderHtml) {
+      const normalized = HtmlNormalizer.normalize(text);
+
+      const sanitized = DOMPurify.sanitize(normalized, {
+        ALLOWED_TAGS: [
+          "p",
+          "br",
+          "strong",
+          "b",
+          "em",
+          "i",
+          "u",
+          "ul",
+          "ol",
+          "li",
+          "blockquote",
+          "code",
+          "pre",
+          "a",
+        ],
+        ALLOWED_ATTR: ["href", "title", "target", "rel"],
+        ALLOW_DATA_ATTR: false,
+        ALLOW_ARIA_ATTR: false,
+        FORBID_TAGS: [
+          "style",
+          "script",
+          "iframe",
+          "object",
+          "embed",
+          "form",
+          "input",
+          "button",
+          "textarea",
+          "select",
+          "svg",
+          "math",
+        ],
+      });
+
+      bubble.innerHTML = sanitized;
+
+      bubble.querySelectorAll("a").forEach((link) => {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      });
+
+      state.history.push({
+        role,
+        content: HtmlNormalizer.toPlainText(sanitized),
+      });
+    } else {
+      bubble.textContent = text;
+
+      state.history.push({
+        role,
+        content: text,
+      });
+    }
 
     message.appendChild(bubble);
 
@@ -91,11 +156,11 @@ const ChatWidget = (() => {
   }
 
   function addUserMessage(text) {
-    addMessage("user", text);
+    addMessage("user", text, false);
   }
 
   function addAssistantMessage(text) {
-    addMessage("assistant", text);
+    addMessage("assistant", text, true);
   }
 
   // ---------------------------------------------------------------------
@@ -131,6 +196,7 @@ const ChatWidget = (() => {
       elements.thinking.textContent = "Pensando...";
     }
   }
+
   // ---------------------------------------------------------------------
   // Ajuste automático del textarea
   // ---------------------------------------------------------------------
@@ -139,12 +205,8 @@ const ChatWidget = (() => {
     elements.input.style.height = "auto";
 
     elements.input.style.height =
-      Math.min(elements.input.scrollHeight, 180) + "px";
+      Math.min(elements.input.scrollHeight, CHAT_TRANSITION_DURATION) + "px";
   }
-
-  // ---------------------------------------------------------------------
-  // Respuesta simulada
-  // ---------------------------------------------------------------------
 
   // ---------------------------------------------------------------------
   // Envío de mensajes
@@ -190,13 +252,16 @@ const ChatWidget = (() => {
     } catch (error) {
       console.error(error);
 
-      addAssistantMessage("Se produjo un error al contactar con el asistente.");
+      addAssistantMessage(
+        "<p>Se produjo un error al contactar con el asistente.</p>",
+      );
     } finally {
       setWaiting(false);
 
       elements.input.focus();
     }
   }
+
   // ---------------------------------------------------------------------
   // Conversación
   // ---------------------------------------------------------------------
@@ -211,12 +276,13 @@ const ChatWidget = (() => {
     elements.window.hidden = false;
 
     addAssistantMessage(
-      "Hola. Soy el asistente del proyecto EQui-T. Puedo ayudarle a crear recursos educativos accesibles utilizando las recomendaciones del catálogo de criterios. ¿Sobre qué tipo de recurso desea trabajar?",
+      "<p>Hola. Soy el asistente del proyecto EQui-T. Puedo ayudarle a crear recursos educativos accesibles utilizando las recomendaciones del catálogo de criterios. ¿Sobre qué tipo de recurso desea trabajar?</p>",
     );
 
     elements.input.focus();
     resizeInput();
   }
+
   function showModal() {
     if (!state.active) {
       return;
@@ -228,6 +294,7 @@ const ChatWidget = (() => {
   function hideModal() {
     elements.modal.hidden = true;
   }
+
   function resetConversation() {
     state.sessionId = null;
 
@@ -257,6 +324,159 @@ const ChatWidget = (() => {
   }
 
   // ---------------------------------------------------------------------
+  // Modo expandido
+  // ---------------------------------------------------------------------
+
+  /**
+   * Actualiza el icono y los atributos del botón de expandir.
+   */
+  function updateExpandButton() {
+    const expanded = state.expanded;
+
+    elements.expand.replaceChildren(
+      expanded ? ChatIcons.collapse() : ChatIcons.expand(),
+    );
+
+    elements.expand.title = expanded
+      ? "Salir del modo expandido"
+      : "Expandir chat";
+
+    elements.expand.setAttribute(
+      "aria-label",
+      expanded ? "Salir del modo expandido" : "Expandir chat",
+    );
+
+    elements.expand.setAttribute("aria-expanded", String(expanded));
+  }
+  /**
+   * Obtiene los elementos enfocables del chat.
+   */
+  function getFocusableElements() {
+    return elements.widget.querySelectorAll(
+      'button:not([disabled]), textarea:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])',
+    );
+  }
+  /**
+   * Mantiene el foco dentro del diálogo expandido.
+   */
+  function trapFocus(event) {
+    if (!state.expanded || event.key !== "Tab") {
+      return;
+    }
+
+    const focusable = [...getFocusableElements()];
+
+    if (focusable.length === 0) {
+      return;
+    }
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+
+    if (event.shiftKey) {
+      if (document.activeElement === first) {
+        event.preventDefault();
+
+        last.focus();
+      }
+    } else {
+      if (document.activeElement === last) {
+        event.preventDefault();
+
+        first.focus();
+      }
+    }
+  }
+  /**
+   * Activa el modo expandido.
+   */
+  function expandChat() {
+    if (state.expanded) {
+      return;
+    }
+
+    state.expanded = true;
+
+    previousFocus = document.activeElement;
+
+    state.scrollY = window.scrollY;
+
+    document.body.classList.add("chat-expanded");
+
+    elements.widget.classList.add("chat-expanded");
+
+    elements.focusBackdrop.hidden = false;
+
+    requestAnimationFrame(() => {
+      elements.focusBackdrop.classList.add("chat-visible");
+    });
+
+    elements.widget.setAttribute("role", "dialog");
+    elements.widget.setAttribute("aria-modal", "true");
+
+    updateExpandButton();
+
+    elements.input.focus();
+  }
+  /**
+   * Desactiva el modo expandido.
+   */
+  function collapseChat() {
+    if (!state.expanded) {
+      return;
+    }
+
+    state.expanded = false;
+
+    document.body.classList.remove("chat-expanded");
+
+    window.scrollTo({
+      top: state.scrollY,
+      behavior: "instant",
+    });
+
+    elements.widget.classList.remove("chat-expanded");
+
+    elements.focusBackdrop.classList.remove("chat-visible");
+
+    const onTransitionEnd = () => {
+      elements.focusBackdrop.hidden = true;
+
+      elements.focusBackdrop.removeEventListener(
+        "transitionend",
+        onTransitionEnd,
+      );
+    };
+
+    elements.focusBackdrop.addEventListener("transitionend", onTransitionEnd);
+
+    elements.widget.removeAttribute("role");
+    elements.widget.removeAttribute("aria-modal");
+
+    updateExpandButton();
+
+    if (previousFocus) {
+      try {
+        previousFocus.focus({
+          preventScroll: true,
+        });
+      } catch {
+        previousFocus.focus();
+      }
+    }
+  }
+  /**
+   * Alterna el modo expandido.
+   */
+  function toggleExpand() {
+    if (state.expanded) {
+      collapseChat();
+    } else {
+      expandChat();
+    }
+  }
+
+  // ---------------------------------------------------------------------
   // Eventos
   // ---------------------------------------------------------------------
 
@@ -280,6 +500,20 @@ const ChatWidget = (() => {
     elements.modalCancel.addEventListener("click", hideModal);
 
     elements.modalConfirm.addEventListener("click", resetConversation);
+
+    elements.expand.addEventListener("click", toggleExpand);
+
+    elements.focusBackdrop.addEventListener("click", collapseChat);
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        collapseChat();
+
+        return;
+      }
+
+      trapFocus(event);
+    });
   }
 
   // ---------------------------------------------------------------------
@@ -296,6 +530,12 @@ const ChatWidget = (() => {
     container.innerHTML = await loadHtml("chat-content.html");
 
     cacheElements();
+
+    elements.expand.appendChild(ChatIcons.expand());
+
+    elements.newConversation.appendChild(ChatIcons.newConversation());
+
+    updateExpandButton();
 
     bindEvents();
   }

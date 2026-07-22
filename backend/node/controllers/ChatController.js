@@ -4,7 +4,13 @@ const PromptService = require("../services/PromptService");
 
 async function ask(req, res) {
   try {
-    const { message, history = [] } = req.body;
+    let { message, history = [] } = req.body;
+
+    const testMode = message.trimStart().startsWith("[TEST_HTML]");
+
+    if (testMode) {
+      message = message.replace(/^\s*\[TEST_HTML\]\s*/, "");
+    }
 
     console.log(`🟡 Mensaje: ${message}`);
 
@@ -12,7 +18,9 @@ async function ask(req, res) {
     // Recuperación RAG
     // ==========================
 
-    const criteria = await RagService.search(message);
+    const criteria = testMode
+      ? []
+      : await RagService.search(message);
 
     // ==========================
     // Construcción del prompt
@@ -22,6 +30,7 @@ async function ask(req, res) {
       message,
       history,
       criteria,
+      testMode,
     });
 
     // ==========================

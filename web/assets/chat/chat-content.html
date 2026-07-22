@@ -1,3 +1,5 @@
+<div id="chat-focus-backdrop" hidden></div>
+
 <div id="chat-widget">
   <!-- ============================================================= -->
   <!-- Pantalla de bienvenida                                        -->
@@ -32,12 +34,26 @@
       <div class="chat-title">
         <h3>Asistente IA EQui-T</h3>
 
-        <span id="chat-status"> Conversación activa </span>
+        <span id="chat-status">Conversación activa</span>
       </div>
 
-      <button id="chat-new" type="button" title="Nueva conversación">
-        Nueva conversación
-      </button>
+      <div id="chat-header-actions">
+        <button
+          id="chat-expand"
+          class="chat-icon-button"
+          type="button"
+          title="Expandir chat"
+          aria-label="Expandir chat"
+        ></button>
+
+        <button
+          id="chat-new"
+          class="chat-icon-button"
+          type="button"
+          title="Nueva conversación"
+          aria-label="Nueva conversación"
+        ></button>
+      </div>
     </header>
 
     <!-- Historial -->
@@ -67,6 +83,7 @@
       <button id="chat-send" type="button">Enviar</button>
     </footer>
   </section>
+
   <!-- ============================================================= -->
   <!-- Modal                                                         -->
   <!-- ============================================================= -->
