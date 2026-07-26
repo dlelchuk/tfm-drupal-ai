@@ -163,6 +163,71 @@ const ChatWidget = (() => {
     addMessage("assistant", text, true);
   }
 
+  function createAssistantMessage() {
+    const message = document.createElement("div");
+    message.className = "chat-message chat-assistant";
+
+    const bubble = document.createElement("div");
+    bubble.className = "chat-bubble";
+
+    message.appendChild(bubble);
+
+    elements.messages.appendChild(message);
+
+    elements.messages.scrollTop = elements.messages.scrollHeight;
+
+    return bubble;
+  }
+
+  function renderAssistantBubble(bubble, text) {
+    const normalized = HtmlNormalizer.normalize(text);
+
+    const sanitized = DOMPurify.sanitize(normalized, {
+      ALLOWED_TAGS: [
+        "p",
+        "br",
+        "strong",
+        "b",
+        "em",
+        "i",
+        "u",
+        "ul",
+        "ol",
+        "li",
+        "blockquote",
+        "code",
+        "pre",
+        "a",
+      ],
+      ALLOWED_ATTR: ["href", "title", "target", "rel"],
+      ALLOW_DATA_ATTR: false,
+      ALLOW_ARIA_ATTR: false,
+      FORBID_TAGS: [
+        "style",
+        "script",
+        "iframe",
+        "object",
+        "embed",
+        "form",
+        "input",
+        "button",
+        "textarea",
+        "select",
+        "svg",
+        "math",
+      ],
+    });
+
+    bubble.innerHTML = sanitized;
+
+    bubble.querySelectorAll("a").forEach((link) => {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    });
+
+    elements.messages.scrollTop = elements.messages.scrollHeight;
+  }
+
   // ---------------------------------------------------------------------
   // Estado de espera
   // ---------------------------------------------------------------------
@@ -246,9 +311,37 @@ const ChatWidget = (() => {
         throw new Error(`Error ${response.status}`);
       }
 
-      const data = await response.json();
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
 
-      addAssistantMessage(data.reply);
+      const bubble = createAssistantMessage();
+
+      let reply = "";
+      let firstChunk = true;
+
+      while (true) {
+        const { done, value } = await reader.read();
+
+        if (done) {
+          break;
+        }
+
+        if (firstChunk) {
+          firstChunk = false;
+          setWaiting(false);
+        }
+
+        reply += decoder.decode(value, {
+          stream: true,
+        });
+
+        renderAssistantBubble(bubble, reply);
+      }
+
+      state.history.push({
+        role: "assistant",
+        content: HtmlNormalizer.toPlainText(reply),
+      });
     } catch (error) {
       console.error(error);
 
@@ -256,7 +349,9 @@ const ChatWidget = (() => {
         "<p>Se produjo un error al contactar con el asistente.</p>",
       );
     } finally {
-      setWaiting(false);
+      if (state.waitingResponse) {
+        setWaiting(false);
+      }
 
       elements.input.focus();
     }
